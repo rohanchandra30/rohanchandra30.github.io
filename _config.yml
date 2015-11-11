@@ -40,13 +40,13 @@ me-img: "/img/11412177_703829636427811_1554266896674547224_n.jpg"
 ##############################
 
 dynamic-typing: True
-shuffle: True # Shuffle the lines.
+shuffle: True	# Shuffle the lines.
 loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10    # Default 10
-start-delay: 200  # Default 200
-delete-delay: 5000  # Default 5000
-lines:      # You can add HTML Tags in the Text
+loop-count:	False # Set False for infinite loop, or set any number for finite loop.
+type-speed:	10		# Default 10
+start-delay: 200	# Default 200
+delete-delay: 5000	# Default 5000
+lines:			# You can add HTML Tags in the Text
   - text: "I'll either find a way or make one myself."
   - text: "Working towards the moment I transform into a supersaiyan."
 
@@ -127,9 +127,10 @@ social:
 
 pages_list:
   About: 'about'
+  Research: 
   Career+Resumé: 'career'
-  Publications: 
-  Speed Math Blog: 
+  Publications: 'publications'
+  Speed Math Blog: 'speed math blog'
   Contact: 'contact'
 
 # Pagination path
