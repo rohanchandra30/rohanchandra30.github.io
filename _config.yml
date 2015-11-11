@@ -1,7 +1,7 @@
 
 # Site settings
 
-url: "https://panossakkos.github.io"
+url: "https://ridersofrohan306.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -20,7 +20,7 @@ force-https: True
 # HTML Head #
 #############
 
-author: "John Smith"
+author: "Rohan Chandra"
 lang: "en"
 title: "{ Rohan Chandra }"
 favicon: "/img/gohan.ico"
@@ -40,13 +40,13 @@ me-img: "/img/11412177_703829636427811_1554266896674547224_n.jpg"
 ##############################
 
 dynamic-typing: True
-shuffle: True	# Shuffle the lines.
+shuffle: True # Shuffle the lines.
 loop: True
-loop-count:	False # Set False for infinite loop, or set any number for finite loop.
-type-speed:	10		# Default 10
-start-delay: 200	# Default 200
-delete-delay: 5000	# Default 5000
-lines:			# You can add HTML Tags in the Text
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10    # Default 10
+start-delay: 200  # Default 200
+delete-delay: 5000  # Default 5000
+lines:      # You can add HTML Tags in the Text
   - text: "I'll either find a way or make one myself."
   - text: "Working towards the moment I transform into a supersaiyan."
 
@@ -70,15 +70,24 @@ disqus-shortname: "panossakkos"
 ###############
 
 events:
-  - image: "/img/career/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/career/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/career/IIITD.png"
+    date: "January 2016 - August 2016"
+    description: "Future appointment as Research Assistant!"
+  - image: "/img/career/amity-logo.png"
+    date: "August 2015 - September 2015 "
+    description: "Research Assistant working on classification and machine learning"
+  - image: "/img/career/UMD.png"
+    date: "June 2015 - August 2015"
+    description: "Summer research intern under Drs. Piya Pal and Ashok Agrawala"
+  - image: "/img/career/UCB.jpg"
+    date: "June 2014 - August 2014"
+    description: "Studied Urban and Finance Economics at the Berkeley summer"
+  - image: "/img/career/DTU.jpg"
+    date: "January 2014 - Present"
+    description: "Research assistant in Dr. Neeta Pandey's group. Working to improve performance and functionality of analog filters and Digital to Analog Converters"
 
 # First image of the Career timeline
-career-img: "/img/career/default.png"
+career-img: "/img/career/ashstart.jpg"
 
 ##################
 # Contact layout #
@@ -118,8 +127,10 @@ social:
 
 pages_list:
   About: 'about'
-  Research: 'blog'
-  Publications: 'pubs'
+  Research: 
+  Career+Resumé: 'career'
+  Publications: 'publications'
+  Speed Math Blog: 'speed math blog'
   Contact: 'contact'
 
 # Pagination path
