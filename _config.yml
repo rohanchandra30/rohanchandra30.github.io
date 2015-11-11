@@ -127,10 +127,9 @@ social:
 
 pages_list:
   About: 'about'
-  Research: 
   Career+Resumé: 'career'
-  Publications: 'publications'
-  Speed Math Blog: 'speed math blog'
+  Publications: 
+  Speed Math Blog: 
   Contact: 'contact'
 
 # Pagination path
