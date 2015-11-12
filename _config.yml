@@ -20,7 +20,7 @@ force-https: True
 # HTML Head #
 #############
 
-author: "Rohan Chandra"
+author: 
 lang: "en"
 title: "{ Rohan Chandra }"
 favicon: "/img/gohan.ico"
