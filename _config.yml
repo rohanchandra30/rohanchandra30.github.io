@@ -22,7 +22,7 @@ force-https: True
 
 author: "Rohan Chandra"
 lang: "en"
-title: "{ Rohan Chandra }"
+title: "Rohan Chandra"
 favicon: "/img/gohan.ico"
 description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
 keywords: "smith, jones, personal, jekyll, theme"
