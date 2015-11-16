@@ -27,6 +27,8 @@ favicon: "/img/gohan.ico"
 description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
 keywords: "smith, jones, personal, jekyll, theme"
 
+aboutme: "Welcome to my website. My name is Rohan Chandra.I am a senior at Delhi Technological University, New Delhi. My hobbies are playing chess and mathemagics. The latter is a just a fancy term for vedic math or speed math. My favorite game is the one where you take apart the number from the number plate of the car in front of you and multiply it in your head. My record is 13 cars in 56 seconds. So the take away is you probably shouldn't get into a car with me. Thanks for visiting my site." #\SARTHAK
+
 ################
 # Intro layout #
 ################
@@ -71,7 +73,7 @@ disqus-shortname: "panossakkos"
 
 events:
   - image: "/img/career/IIITD.png"
-    date: "January 2016 - August 2016"
+    date: "December 2015 - June 2016"
     description: "Future appointment as Research Assistant!"
   - image: "/img/career/amity-logo.png"
     date: "August 2015 - September 2015 "
@@ -88,6 +90,19 @@ events:
   - image: "/img/career/DTU.jpg"
     date: "January 2014 - Present"
     description: "Research assistant in Dr. Neeta Pandey's group. Working to improve performance and functionality of analog filters and Digital to Analog Converters"
+
+
+# USE THIS AS AN EXAMPLE \SARTHAK
+###############
+# Publications #
+###############
+
+collections:
+  publications:
+    output: true
+    permalink: /publications/:path/
+  # ADD OTHER STUFF HERE \SARTHAK  
+relative_permalinks: false
 
 # First image of the Career timeline
 career-img: "/img/career/ashstart.jpg"
@@ -130,7 +145,7 @@ social:
 
 pages_list:
   About: 'about'
-  Research: 
+  Research: 'research'
   Career+Resumé: 'career'
   Publications: 'publication'
   Speed Math Blog: 'blog'

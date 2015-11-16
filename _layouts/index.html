@@ -12,35 +12,17 @@
 
     {% include header.html %}
 
-    {% for page in site.pages %}
+    {% include about.html %}
 
-      {% if page.section-type == "about" %}
+    {% include career.html %}
 
-        {% include about.html %}
+    {% include research.html %}
 
-      {% elsif page.section-type == "latest-post" %}
+    {% include publication.html %}
 
-        {% include latest-post.html %}
+    {% include blog.html %}
 
-      {% elsif page.section-type == "career" %}
-
-        {% include career.html %}
-
-      {% elsif page.section-type == "publication" %}
-
-        {% include publication.html %}
-
-      {% elsif page.section-type == "blog" %}
-
-        {% include blog.html %}
-
-      {% elsif page.section-type == "contact" %}
-
-        {% include contact.html %}
-
-      {% endif %}
-
-    {% endfor %}
+    {% include contact.html %}
 
     {% include footer.html %}
 

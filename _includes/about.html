@@ -1,11 +1,12 @@
 
 <!-- About Start -->
 
-<section id="{{ page.title }}" class="container content-section text-center">
+<section id="about" class="container content-section text-center">
   <div class="row">
+  <h1>ABOUT ME</h1>
       <div class="col-lg-8 col-lg-offset-2">
 	  <body background="namek_water.jpg">
-        {{ page.content | markdownify }}
+        {{ site.aboutme | markdownify }}
       </div>
   </div>
 </section>
