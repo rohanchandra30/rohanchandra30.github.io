@@ -132,8 +132,8 @@ pages_list:
   About: 'about'
   Research: 
   Career+Resumé: 'career'
-  Publications: 'publications'
-  Speed Math Blog: 'speed math blog'
+  Publications: 'publication'
+  Speed Math Blog: 'blog'
   Contact: 'contact'
 
 # Pagination path

@@ -26,6 +26,14 @@
 
         {% include career.html %}
 
+      {% elsif page.section-type == "publication" %}
+
+        {% include publication.html %}
+
+      {% elsif page.section-type == "blog" %}
+
+        {% include blog.html %}
+
       {% elsif page.section-type == "contact" %}
 
         {% include contact.html %}
