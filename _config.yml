@@ -101,8 +101,15 @@ collections:
   publications:
     output: true
     permalink: /publications/:path/
-  # ADD OTHER STUFF HERE \SARTHAK  
+  collections:
+  blog:
+    output: true
+    permalink: /blog/:path/
+    # ADD OTHER STUFF HERE \SARTHAK  
 relative_permalinks: false
+
+
+ 
 
 # First image of the Career timeline
 career-img: "/img/career/ashstart.jpg"
