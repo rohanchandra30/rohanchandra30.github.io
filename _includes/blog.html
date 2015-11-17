@@ -6,7 +6,15 @@
     <h1>BLOG</h1>
         <div class="col-lg-8 col-lg-offset-2">
 
-          To be updated soon !
+          <ul class="blog_list">
+            {% for blog in site.blog %}
+              <li class="blog">
+                          <a href="{{ blog.url }}"><h4>{{ blog.name }}</h4></a>
+                          <p>
+                          
+                          </p>
+              </li>
+            {% endfor %}
           </ul>
         </div>
     </div>
