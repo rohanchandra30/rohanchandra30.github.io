@@ -6,10 +6,27 @@
     <h1>RESEARCH</h1>
         <div class="col-lg-8 col-lg-offset-2">
 
-        <h3><i>Delhi Technological University</i></h3>
-        <P>I have been working with <a href="https://scholar.google.co.in/citations?user=7pew59gAAAAJ&hl=en">Dr. Neeta Pandey</a> at DTU, one of India's best engineering institutes to improve the performance and functionality of notch filters and all pass filters by implementing Operational Transresistance Amplifiers (OTRA's) as the basic amplifier block. Our research holds significance as the OTRA provides advantages in the form of gain-bandwidth independence, optimum slew rate and negligible parasitic effects due to passive components. </p>
-<p>UPDATES:
-One of our papers has been submitted to "Active and Passive Electronic Components" , Hindawi Publications. <br>Currently, as part of my final year project, I am simulating Digital-to-Analog/Analog-to-Digital (DAC/ADC) circuits using the OTRA. </p>
+
+		<ul class="research_list">
+            {% for research in site.research %}
+              <li class="research_layout">
+                          <a href="{{ research.url }}"><h4>{{ research.name }}</h4></a>
+                          <p>
+                            <b>{{ research.description }}</b>
+                          </p>
+              </li>
+            {% endfor %}
+          </ul>
+       
+
+          <ul class="conference_list">
+            {% for conference in site.conference %}
+              <li class="conference_layout">
+                          <a href="{{ conference.url }}"><h5>{{ conference.name }}</h5></a>
+                         
+              </li>
+            {% endfor %}
+          </ul>
 
 
       

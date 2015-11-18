@@ -98,13 +98,16 @@ events:
 ###############
 
 collections:
-  publications:
+  conference:
     output: true
-    permalink: /publications/:path/
+    permalink: /conference/:path/
   collections:
   blog:
     output: true
     permalink: /blog/:path/
+  research:
+    output: true
+    permalink: /research/:path/
     # ADD OTHER STUFF HERE \SARTHAK  
 relative_permalinks: false
 
@@ -154,7 +157,6 @@ pages_list:
   About: 'about'
   Research: 'research'
   Career+Resumé: 'career'
-  Publications: 'publication'
   Blog: 'blog'
   Contact: 'contact'
 
