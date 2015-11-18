@@ -155,7 +155,7 @@ pages_list:
   Research: 'research'
   Career+Resumé: 'career'
   Publications: 'publication'
-  Speed Math Blog: 'blog'
+  Blog: 'blog'
   Contact: 'contact'
 
 # Pagination path
