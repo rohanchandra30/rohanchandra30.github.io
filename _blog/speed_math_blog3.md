@@ -16,4 +16,4 @@ Step 3: Multiply the units digit of both numbers and add to result of step 2 to 
 
 Step 1: 17 times 5 , + 9 =94.  
 Step 2: Append 0 to get 940.  
-Step 3: add 9x7=63 to 940 to get final answer=1003
+Step 3: add 9x7=63 to 940 to get final answer=1003  

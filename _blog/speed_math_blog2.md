@@ -10,17 +10,14 @@ For Vedic mathematicians and enthusiasts, it is very important to be able to com
 
 The technique used to compute this problem is as follows:
 
-1.)	We need to round 653 to the nearest hundred. So we add and subtract 47 from 653 to get 700 and 606. 
-
-2.)	Multiply the 606 and 700 to arrive at 424200.
-
+1.)	We need to round 653 to the nearest hundred. So we add and subtract 47 from 653 to get 700 and 606.  
+2.)	Multiply the 606 and 700 to arrive at 424200.  
 3.)	We next simply add   to 424200 to get the final answer as 424200 + 2209= 426409  
 
 From step 3 it can be observed that while calculating 606 times 700 may be easy, calculating   while keeping in mind the result of 606 times 700 that is, 424200 may be a bit difficult. But what if there was a way to easily calculate 47x47. It would make the computation of  so much easier.  
 Almost in all the literature, the Vedic math shortcut is universal. It is the deviation method where you:  
 
 1.)	Take the distance of the given number from the nearest multiple of ten and add and subtract that distance from the number.  
-
 2.)	Multiply the two numbers and add the square of the distance to get the final answer.
 
 ####Example 2:  
@@ -43,17 +40,14 @@ This will become clear through the following two examples:
 
 ####Example 3:  
 1.)	Find A: Multiply 6 and 7 and append two 0’s to get 4200.
-Find C: The unit’s digit is 8, therefore C will be 4 (from table 2)
-
+Find C: The unit’s digit is 8, therefore C will be 4 (from table 2)  
 2.)	Find B: 
-a.	Take 7 and multiply it first by 10 and then by 2 to get 140. 68 is 3 units away from 65. So multiply 140 by 3 to get 420.
-
+Take 7 and multiply it first by 10 and then by 2 to get 140. 68 is 3 units away from 65. So multiply 140 by 3 to get 420  
 3.)	Add A, B and C to get the final answer. 4200 + 420 + 4 = 4624.  
 
 ####Example 4:  
 1.)	Find A: Multiply 4 and 5 and append two 0’s to get 2000.
-Find C: The unit’s digit is 6 therefore C will be 16 (from table 2)
+Find C: The unit’s digit is 6 therefore C will be 16 (from table 2)  
 2.)	Find B: 
-a.	Take 5 and multiply it first by 10 and then by 2 to get 100. 46 is 1 unit away from 45. So multiply 100 by 1 to get 100.
-
+Take 5 and multiply it first by 10 and then by 2 to get 100. 46 is 1 unit away from 45. So multiply 100 by 1 to get 100.  
 3.)	Add A, B and C to get the final answer. 2000 + 100 + 16 = 2116.
