@@ -15,4 +15,6 @@ Consequently, this can be applied to larger numbers. For instance, to do 123 X 9
 
 #### UPDATES!  
 
-This method has been co-authored with Dr. Arthur Benjamin of Harvey Mudd College and submmitted to the Mathematics Association of America !
+This method has been co-authored with Dr. Arthur Benjamin of Harvey Mudd College and submmitted to the Mathematics Association of America !  
+
+[article can be found here](https://drive.google.com/file/d/0B6liApN8RVRnWktZQ1pPWHJnM3c/view?usp=sharing)
