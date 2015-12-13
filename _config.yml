@@ -1,7 +1,7 @@
 
 # Site settings
-
-url: "https://ridersofrohan306.github.io"
+google_analytics:
+url: "https://rohanchandra30.github.io/"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -10,7 +10,7 @@ url: "https://ridersofrohan306.github.io"
 
 #baseurl: /personal-jekyll-theme
 
-#google-tracking-id: "UA-35880426-4"
+google-tracking-id: "UA-71315775-1"
 
 # Forces https everywhere in your website, except when you serve it locally
 
