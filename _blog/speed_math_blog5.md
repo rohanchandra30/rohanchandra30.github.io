@@ -18,9 +18,9 @@ Dorm life was another new aspect for me. My roommate was a korean american and w
 
 I made friends from all around the world. I particularly became good friends with a chinese-american who I spent most of my time with. We went to restaurants, nightclubs, movies, there is so much to do around Berkeley. I even celebrated my 21st birthday there !  
 
-![Some of the friends I made](https://www.facebook.com/photo.php?fbid=526424764168300&set=pb.100004023427606.-2207520000.1450005916.&type=3&theater)
+![Some of the friends I made](https://drive.google.com/open?id=0B6liApN8RVRnY1VjVVJYMmhPVGc)
 
-![Post debate victory dinner!](https://www.facebook.com/photo.php?fbid=520790848065025&set=pb.100004023427606.-2207520000.1450005916.&type=3&theater)
+![Post debate victory dinner!](https://drive.google.com/open?id=0B6liApN8RVRnUko5a1U0Ni1NUGc)
 
 On my last day, I visited the Sather Tower in the middle of the campus. It's an iconic structure and the view from the top is great too.
 
