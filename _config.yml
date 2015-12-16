@@ -52,7 +52,7 @@ start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
   - text: "I'll either find a way or make one myself."
-  - text: "Working towards the moment I transform into a supersaiyan."
+  - text: "I'm a force that can't be reckoned with."
 
 ########
 # Blog #
@@ -79,7 +79,7 @@ events:
     description: "Future appointment as Research Assistant!"
   - image: "/img/career/amity-logo.png"
     date: "August 2015 - September 2015 "
-    description: "Research Assistant working on classification and machine learning"
+    description: "Worked as a research asistant on classification and machine learning"
   - image: "/img/career/UMD.png"
     date: "June 2015 - August 2015"
     description: "Summer research intern under Drs. Piya Pal and Ashok Agrawala"
@@ -88,7 +88,7 @@ events:
     description: "Worked as project design intern on a home automation project to design a biometric module based finger print sensing lock"
   - image: "/img/career/UCB.jpg"
     date: "June 2014 - August 2014"
-    description: "Studied Urban and Finance Economics at the Berkeley summer"
+    description: "Studied Urban and Finance Economics at the Berkeley summer session"
   - image: "/img/career/DTU.jpg"
     date: "January 2014 - Present"
     description: "Research assistant in Dr. Neeta Pandey's group. Working to improve performance and functionality of analog filters and Digital to Analog Converters"
