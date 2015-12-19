@@ -41,14 +41,14 @@ For B, it will take some to practice and get the hang of it but after a while on
 This will become clear through the following two examples:
 
 ####Example 3:  68x68
-1.)	Find A: Multiply 6 and 7 and append two 0’s to get 4200.
+1.)	Find A: Multiply 6 and 7 and append two 0’s to get 4200.  
 Find C: The unit’s digit is 8, therefore C will be 4 (from table 2)  
 2.)	Find B: 
 Take 7 and multiply it first by 10 and then by 2 to get 140. 68 is 3 units away from 65. So multiply 140 by 3 to get 420  
 3.)	Add A, B and C to get the final answer. 4200 + 420 + 4 = 4624.  
 
 ####Example 4:  46x46
-1.)	Find A: Multiply 4 and 5 and append two 0’s to get 2000.
+1.)	Find A: Multiply 4 and 5 and append two 0’s to get 2000.  
 Find C: The unit’s digit is 6 therefore C will be 16 (from table 2)  
 2.)	Find B: 
 Take 5 and multiply it first by 10 and then by 2 to get 100. 46 is 1 unit away from 45. So multiply 100 by 1 to get 100.  
