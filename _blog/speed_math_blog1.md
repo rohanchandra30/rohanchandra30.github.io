@@ -18,3 +18,5 @@ Consequently, this can be applied to larger numbers. For instance, to do 123 X 9
 This method has been co-authored with Dr. Arthur Benjamin of Harvey Mudd College and submmitted to the Mathematics Association of America !  
 
 [article can be found here](https://drive.google.com/file/d/0B6liApN8RVRnWktZQ1pPWHJnM3c/view?usp=sharing)
+
+<!--<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/jJECepNeCJ0&amp;hl=en_US&amp;fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/jJECepNeCJ0&amp;hl=en_US&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>-->
