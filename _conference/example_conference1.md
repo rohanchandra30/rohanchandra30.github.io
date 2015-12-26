@@ -7,7 +7,7 @@ name: Conferences attended
 Ladder and Weighted Resistor DAC’s” in *2nd International Conference on Recent Innovations in Science,
 Engineering and Management (ICRISEM-15)*, New Delhi, India, November 2015.
 
-####[Publication](http://www.arresearchpublication.com/images/shortpdf/1447868515_1224J.pdf)
+####[Publication](http://data.conferenceworld.in/ICRISEM2/P591-596.pdf)
 
 
 ![text](http://www.conferenceworld.in/images/classifiedads/3186106830.jpg)

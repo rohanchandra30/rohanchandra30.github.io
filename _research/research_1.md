@@ -22,4 +22,4 @@ Currently, as my final year thesis, I am implementing Digital-to-Analog/Analog-t
 
 * Won 2nd Prize for Best Paper Presentation at a national conference on recent trends in communication and technology in Haryana, India
 
-* Presented our paper titled, "Operational Trans Resistance Amplifier (OTRA) Based R-2R Ladder and Weighted Resistor DAC’s" for [publication](http://www.arresearchpublication.com/images/shortpdf/1447868515_1224J.pdf)
+* Presented our paper titled, "Operational Trans Resistance Amplifier (OTRA) Based R-2R Ladder and Weighted Resistor DAC’s" for [publication](http://data.conferenceworld.in/ICRISEM2/P591-596.pdf)

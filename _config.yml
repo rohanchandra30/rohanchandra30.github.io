@@ -31,7 +31,7 @@ aboutme: "Welcome to my website. My name is Rohan Chandra. I am a senior pursuin
 
   
 
-I am interested in studying artificial intelligence and algorithms. But to make use of my ECE background, I want to include a flavour of hardware too, so I shall also be studying a bit of robotics. So basically, I want to be somewhere in the intersection of AI, algorithms and robotics!" #\SARTHAK
+I am interested in studying artificial intelligence and algorithms. But to make use of my ECE background, I want to include a flavour of hardware too, so I shall also be studying a bit of robotics. So basically, I want to be somewhere in the intersection of AI, algorithms and robotics!" 
 
 ################
 # Intro layout #
@@ -138,6 +138,7 @@ social:
     url: "https://in.linkedin.com/in/rohanchandra30"
   - title: "github"
     url: "https://github.com/rohanchandra30"
+ # - title: ""
  # - title: "bitcoin"
   #  url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
  # - title: "rss"
