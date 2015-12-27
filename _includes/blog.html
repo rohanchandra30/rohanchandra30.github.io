@@ -10,6 +10,7 @@
             {% for blog in site.blog %}
               <li class="blog">
                           <a href="{{ blog.url }}"><h4>{{ blog.name }}</h4></a>
+                          <small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
                           <p>
                           {{ blog.description }}
                           </p>
