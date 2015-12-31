@@ -1,8 +1,8 @@
-<<<<<<< HEAD
 ---
 layout: blog
 name: Squaring Made Easy
 description: This article presents an easy way of being able to compute two digit squares of the form 10x + y where x lies between 0 and 9 and y is greater than 5, x and y being integers. The content and idea in this paper is based on a very common Vedic math shortcut of squaring two digit numbers.
+comments: true
 ---
 
 For Vedic mathematicians and enthusiasts, it is very important to be able to compute two digit squares quickly as it forms the basis for most advanced mental computations like squaring of 3 digit and 4 ¬digit numbers. The following example illustrates the importance of being able to square a 2 digit number quickly.
@@ -110,4 +110,4 @@ Find C: The unit’s digit is 6 therefore C will be 16 (from table 2)
 2.)	Find B: 
 Take 5 and multiply it first by 10 and then by 2 to get 100. 46 is 1 unit away from 45. So multiply 100 by 1 to get 100.  
 3.)	Add A, B and C to get the final answer. 2000 + 100 + 16 = 2116.
->>>>>>> 718553d1b22ee507c2ec7f5879357c0a2063687d
+

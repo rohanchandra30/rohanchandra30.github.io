@@ -64,12 +64,12 @@ post-preview-words: 96
 
 paginate: 5
 
-fb-share: True
 twitter-share: True
 reddit-share: True
 google-plus-share: True
+fb-share: True
 linkedin-share: True
-disqus-shortname: "panossakkos"
+disqus-shortname: "Rohan"
 
 ###############
 # Life Events #

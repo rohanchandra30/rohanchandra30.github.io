@@ -2,6 +2,7 @@
 layout: blog
 name: Divisibility tests of primes upto 100
 description: Here's a different way of checking whether an N digit number is divisible by a prime number below 100.
+comments: true
 ---
 
 I.	THE METHOD

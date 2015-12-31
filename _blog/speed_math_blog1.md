@@ -2,6 +2,7 @@
 layout: blog
 name: Multiplying by 9, 99, 999...
 description: A new method to multiply numbers by 9, 99, 999.. very easily
+comments: true
 ---
 
 ####Here's a quick shortcut for multiplying numbers by 9.For AB X 9, subtract A + 1, then append 10 - B.

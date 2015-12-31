@@ -4,10 +4,13 @@
 <html lang="{{ site.lang }}">
 
   {% include head.html %}
-
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
   <h2>{{ page.name }}</h2><br>
   {{ page.content }}
+  {% include share.html %}
+  {% include comments.html %}
+  {% include social-buttons.html %}
+  {% include footer.html %}
   </body>
 </html>
 
