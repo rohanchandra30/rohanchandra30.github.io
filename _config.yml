@@ -112,6 +112,9 @@ collections:
   research:
     output: true
     permalink: /research/:path/
+  gradblog:
+    output: true
+    permalink: /gradblog/:path/
     # ADD OTHER STUFF HERE \SARTHAK  
 relative_permalinks: false
 
