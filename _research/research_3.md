@@ -22,7 +22,7 @@ So I started off my first week by spending some time familiarizing myself with R
 
 For example, a light sensor can be interfaced as one node and motors can be interfaced as another node. Data can be streamed through the sensors, published to a topic and subscribed by the motors.  
 
-#### Second Week!https://www.iiitd.ac.in/rajiv
+#### Second Week!
 
 One of our team members Shubham, from IIT Kanpur, wrote an OpenCV code to detect bunches of lines from an image using the hough transform for the lane detection algorithm. He additionally wrote a function to remove clusters.  
 
