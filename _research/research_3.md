@@ -1,7 +1,7 @@
 ---
 layout: research_layout
 name: Indraprastha Institute of Information Technology, New Delhi, India
-description: I am scheduled to work with <a href="https://www.iiitd.edu.in/~anands/">Dr. Saket Anand</a> in the field of autonomous robotics from december till june 2016.
+description: I am working with <a href="https://www.iiitd.edu.in/~anands/">Dr. Saket Anand</a> in the field of autonomous robotics and computer vision from December 2015 till July 2016. Also, I am auditing CSE 222: Algorithms Design and Analysis taught by <a href="https://www.iiitd.ac.in/rajiv"> Dr. Rajiv Raman</a>.
 ---
 
 I am working as a research assistant in Dr. Saket Anand's group at Indraprastha Institute of Information Technology, Delhi on autonomous robotics for 5-6 months. We are one of the 13 teams cut down from 259 initially competing in the <a href="http://www.sparktherise.com/program-detail/driverless-car-challenge">"Spark For Rise"</a> driverless car challenge initiated by Mahindra. The objective of this competition is to revolutionise driving on the streets of India with the thinking that if autonomous cars can run on Indian roads, they can run on any road in the world.  
@@ -22,7 +22,7 @@ So I started off my first week by spending some time familiarizing myself with R
 
 For example, a light sensor can be interfaced as one node and motors can be interfaced as another node. Data can be streamed through the sensors, published to a topic and subscribed by the motors.  
 
-#### Second Week!
+#### Second Week!https://www.iiitd.ac.in/rajiv
 
 One of our team members Shubham, from IIT Kanpur, wrote an OpenCV code to detect bunches of lines from an image using the hough transform for the lane detection algorithm. He additionally wrote a function to remove clusters.  
 
