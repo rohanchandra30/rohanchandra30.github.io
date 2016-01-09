@@ -165,7 +165,7 @@ pages_list:
   About: 'about'
   Research: 'research'
   Career+Resumé: 'career'
-  Blog: 'blog'
+  Blog+Image Gallery: 'blog'
   Contact: 'contact'
 
 # Pagination path
