@@ -1,7 +1,7 @@
 ---
 layout: blog
-name: GRE- The Great Exam
-description: sds
+name: GRE- 'The Great Exam' !
+description: This post is meant to give you a personalized account of what it was like for me to give the GRE.
 comments: true
 ---
 
@@ -9,18 +9,19 @@ Hi! This post is meant to give you a personalized account of what it was like fo
 
 The GRE exam is a prerequisite standardized test required for most MS/PhD programs. It test you on math concepts learned in high school and verbal skills like comprehension, sentence structure, vocabulary and the ability known as “Verbal Assimilation” which I shall define later.
 
-###Format of the GRE:
-####Consists of 5 sections.
+### Format of the GRE:
+
+#### Consists of 5 sections.
 	a.) 2 Quant+ 2 verbal+1 quant/verbal in ANY order. The extra 1 quant/verbal section is the experimental section. These 5 sections can appear in any order and you have no idea which section is the experimental one.
 	
 	b.) There is also a writing section called the AWA which consists of 2 writing questions.
 
-####Scoring:
+#### Scoring:
 	a.) The maximum score is out of 340. Each question carries one point and there is no negative marking. After attempting all the questions, you are given a raw score based on the number of questions you have answered correctly and this raw score is converted to a scale of 340.
 
 	b.) The test is section adaptive. This means that based on the performance of the current section, the difficulty level of the next section will be decided.
 
-####Types of questions:
+#### Types of questions:
 	To get a detailed view of the types of questions asked in the GRE, visit the [website](http://www.ets.org/gre/). There is no point writing the same things on the blog when you can get the same stuff off the internet.
 
 ###When would I feel I'm ready to give the GRE?
