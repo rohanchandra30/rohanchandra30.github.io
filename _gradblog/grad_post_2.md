@@ -52,11 +52,11 @@ For verbal, I used to solve the sentence equivalence questions first. There are 
 
 I want to talk a little about how to study for the verbal section because that’s where I messed up. Rote memorization of the advanced words isn’t enough and I see fresh students doing just that. I coined a term ‘verbal assimilation’™. This means you have to assimilate 3 skills while attempting a verbal question.  
 
-Vocabulary strength-can you understand the words which are being used in the question?  
+*Vocabulary strength*-can you understand the words which are being used in the question?  
 
-Reading comprehension- OK, say you understood all the words that that the question used, but does that mean you understood what the author wants to convey? Or have you understood the meaning of the sentence that will allow you to figure how which words should go in the blank? Are they asking for the color of Leonardo Da Vinci’s dog? Or the pant size of Auntie Muriel? Or are they asking you for a word synonymous to how tempestuous weather can get during storms (Ans: Inclement).  
+*Reading comprehension*- OK, say you understood all the words that that the question used, but does that mean you understood what the author wants to convey? Or have you understood the meaning of the sentence that will allow you to figure how which words should go in the blank? Are they asking for the color of Leonardo Da Vinci’s dog? Or the pant size of Auntie Muriel? Or are they asking you for a word synonymous to how tempestuous weather can get during storms (Ans: Inclement).  
 
-And the 3rd most important skill: trying to do the above two with blanks in the middle. Its easy enough to read a sentence and figure out what it means. But when there are blanks in the middle, you kind of have to figure out where, if it had been a normal regular sentence, blanks could have been placed. It is somewhat like visualizing the sentence without the blanks and predicting what that sentence was originally. This skill comes with practice.  
+*And the 3rd most important skill*: trying to do the above two with blanks in the middle. Its easy enough to read a sentence and figure out what it means. But when there are blanks in the middle, you kind of have to figure out where, if it had been a normal regular sentence, blanks could have been placed. It is somewhat like visualizing the sentence without the blanks and predicting what that sentence was originally. This skill comes with practice.  
 
 For quant, I don’t recommend this approach since most of you will have different levels of comfort in math and different strategies might work for you (same goes for verbal), but I attempted the quant questions one after the other in ascending order irrespective of the type of questions
 
