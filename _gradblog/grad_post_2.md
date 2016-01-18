@@ -29,11 +29,16 @@ As soon as you start scoring in the 320's in the mocks, book a date IMMEDIATELY 
 
 
 ###Where I studied from
-The ETS practice book and the CD it comes along with are the most important resources for judging your performance. Roughly, you'll score about as much as you score on one of those tests. So take them only when you've prepared sufficiently. Don't waste them. Things I used to prepare were
--The Magoosh resources (had to pay)
--Manhattan tests (had to pay)
--Princeton review tests(bought the book, so the tests came free with it)
--ETS official guide materials
+The ETS practice book and the CD it comes along with are the most important resources for judging your performance. Roughly, you'll score about as much as you score on one of those tests. So take them only when you've prepared sufficiently. Don't waste them. Things I used to prepare were  
+
+ -The Magoosh resources (had to pay)
+
+  
+ -Manhattan tests (had to pay)
+  
+ -Princeton review tests(bought the book, so the tests came free with it)
+  
+ -ETS official guide materials
 
 I used the 1st and 4th resources quite heavily and extensively to prepare. The others I used just for mock tests. I'm not going to preach about which materials you in particular have to use because that’s stupid and different things work for different people but these were what I used and you can mix and match and see what works best for you. But start early to find out your favorite resources and then only dive into the actual prep.
 
@@ -43,11 +48,16 @@ Facts and figures aside, I found quant to be a breeze and I didn't even study fo
 ###My strategy
 The most logical strategy would be to solve the easiest questions first. Not just for the confidence boost but also because all questions have the same value and getting stuck on a difficult questions and probably getting it wrong in the end when you could picked up a few easy ones in that time is just plain stupid.
 
-For verbal, I used to solve the sentence equivalence questions first. There are four of them in every section and are usually the easiest. I then skipped back to the beginning part of the section and picked up the easy one blank and two blank text completion questions. I leave out the triple blank question. It isn’t particularly hard but you need about a minute to read the entire question passage carefully and piece the meaning together to figure out the correct set of 3 words. After the single and double blank TC, I moved on to the short and medium reading passage questions. Similar to the triple blank question, they are easy to answer once you’ve taken out the time to read through the passage. And in the end, I attempt the long reading comprehension passage. That is a nightmare and requires the most practice to tackle. It takes time to read it and has 4 questions to it which comprise 20% of your exam score.
-I want to talk a little about how to study for the verbal section because that’s where I messed up. Rote memorization of the advanced words isn’t enough and I see fresh students doing just that. I coined a term ‘verbal assimilation’™. This means you have to assimilate 3 skills while attempting a verbal question.
+For verbal, I used to solve the sentence equivalence questions first. There are four of them in every section and are usually the easiest. I then skipped back to the beginning part of the section and picked up the easy one blank and two blank text completion questions. I leave out the triple blank question. It isn’t particularly hard but you need about a minute to read the entire question passage carefully and piece the meaning together to figure out the correct set of 3 words. After the single and double blank TC, I moved on to the short and medium reading passage questions. Similar to the triple blank question, they are easy to answer once you’ve taken out the time to read through the passage. And in the end, I attempt the long reading comprehension passage. That is a nightmare and requires the most practice to tackle. It takes time to read it and has 4 questions to it which comprise 20% of your exam score.  
+
+I want to talk a little about how to study for the verbal section because that’s where I messed up. Rote memorization of the advanced words isn’t enough and I see fresh students doing just that. I coined a term ‘verbal assimilation’™.  
+
+This means you have to assimilate 3 skills while attempting a verbal question.
 -Vocabulary strength-can you understand the words which are being used in the question?
+
 -Reading comprehension- OK, say you understood all the words that that the question used, but does that mean you understood what the author wants to convey? Or have you understood the meaning of the sentence that will allow you to figure how which words should go in the blank? Are they asking for the color of Leonardo Da Vinci’s dog? Or the pant size of Auntie Muriel? Or are they asking you for a word synonymous to how tempestuous weather can get during storms (Ans: Inclement)
-- And the 3rd most important skill: trying to do the above two with blanks in the middle. Its easy enough to read a sentence and figure out what it means. But when there are blanks in the middle, you kind of have to figure out where, if it had been a normal regular sentence, blanks could have been placed. It is somewhat like visualizing the sentence without the blanks and predicting what that sentence was originally. This skill comes with practice.
+
+- And the 3rd most important skill: trying to do the above two with blanks in the middle. Its easy enough to read a sentence and figure out what it means. But when there are blanks in the middle, you kind of have to figure out where, if it had been a normal regular sentence, blanks could have been placed. It is somewhat like visualizing the sentence without the blanks and predicting what that sentence was originally. This skill comes with practice.  
 
 For quant, I don’t recommend this approach since most of you will have different levels of comfort in math and different strategies might work for you (same goes for verbal), but I attempted the quant questions one after the other in ascending order irrespective of the type of questions
 
