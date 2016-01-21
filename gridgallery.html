@@ -16,7 +16,6 @@ layout: default
 				<img src="{{ site.url }}/img_gridgallery/thumb/{{ post.photo }}" alt="img"/>
 				<figcaption>
 					<h3>{{ post.caption_header}}</h3>
-					<p>{{ post.caption }}</p>
 				</figcaption>
 			</figure>
 		</li>
@@ -30,7 +29,7 @@ layout: default
 		<li>
 			<figure>
 				<img src="{{ site.url }}/img_gridgallery/large/{{ post.photo }}" alt="img"/>
-				<figcaption><h3>{{ post.caption_header}}</h3><p>{{ post.caption }}</p></figcaption>
+				<figcaption><h3>{{ post.caption_header}}</h3></figcaption>
 			</figure>
 		</li>
 		{% endfor %}
