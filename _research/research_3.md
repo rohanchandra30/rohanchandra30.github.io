@@ -19,15 +19,25 @@ Additionally, I am auditing CSE 222: Algorithms Design and Analysis taught by <a
 #### First Week!  
 
 So I started off my first week by spending some time familiarizing myself with ROS. ROS is Robot Operating System and is used to interface multiple nodes with each other. This is done by communicating asynchronously through topics or synchronously through services. A node is basically an executable that sends information via messages. One node publishes messages to a topic and another node subscribes to that message. This is how information is transmitted.  
-
-For example, a light sensor can be interfaced as one node and motors can be interfaced as another node. Data can be streamed through the sensors, published to a topic and subscribed by the motors.  
-
+  
 #### Second Week!
 
 One of our team members Shubham, from IIT Kanpur, wrote an OpenCV code to detect bunches of lines from an image using the hough transform for the lane detection algorithm. He additionally wrote a function to remove clusters.  
 
-Using Shubham's code, I implemented a ROS uvc_Camera_node (Publisher) that publishes a live video feed to the default topic camera/image_raw. Next I wrote a c++ source code to implement a subscriber that receives the images sent by the uvc_camera_node and in turn publishes the processed images to another custom built topic camera/image_processed. I embedded Shubhams code in this source code.  
+Using Shubham's code, I implemented a ROS uvc_Camera_node (Publisher) that publishes a live video feed from the laptops camera to the default topic camera/image_raw. Next I wrote a c++ source code to implement a subscriber that receives the images sent by the uvc_camera_node and in turn publishes the processed images to another custom built topic camera/image_processed. I embedded Shubhams code in this source code.  
 
 I followed this tutorial to set up my ROS nodes. <a href="https://siddhantahuja.wordpress.com/2011/07/20/working-with-ros-and-opencv-draft/">Sid's Blog</a> 
 
-Also, my classes in CSE 222 is going wonderfully. This week, we studied about proofs- the proof by contradiction and the proof by induction. 
+
+#### One Month Later!
+
+It has now been around a month since I joined Swarath. I have gained an excellent control over ROS, computer vision and programming in general. I am now comfortable with writing code for executing nodes, how to write and implement launch files and how to define custom messages and embed information from nodes into those messages.
+
+I added some 200 lines of code to Shubham's lane detection algorithm and visibly improved its accuracy to the point that I can safely call it 'our' algorithm. I ported this algorithm to the joystick controlled e-Rick and collected data to assess the performance of our lane detection algorithm on the roads of IIIT. 
+
+You can check out the Joystick controlled e-Rick and our lane detection algorithm below !
+
+<iframe src="https://drive.google.com/file/d/0B6liApN8RVRnUjA2RnNFU05vY2M/preview" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+
+
+We are working on Way Point Navigation next and pretty soon, I'll be uploading a video of the e-Rick driving itself without the use of joystick!! 
