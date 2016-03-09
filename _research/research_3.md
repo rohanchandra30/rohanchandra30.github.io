@@ -42,6 +42,6 @@ You can check out the Joystick controlled e-Rick and our lane detection algorith
 
 We are working on Way Point Navigation next and pretty soon, I'll be uploading a video of the e-Rick driving itself without the use of joystick!!
 
-Obstacle Detction Added (at the end)
+Obstacle Detection Added (at the end)
 
-<iframe src="https://drive.google.com/open?id=0B6liApN8RVRnVW16SmlDODdINTA" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/f7W6_r3Qs-4" frameborder="0" allowfullscreen></iframe>
