@@ -44,4 +44,4 @@ We are working on Way Point Navigation next and pretty soon, I'll be uploading a
 
 Obstacle Detection Added (at the end)
 
-<iframe width="400" height="400" src="https://www.youtube.com/embed/F5CKw9IoydE" frameborder="0" allowfullscreen></iframe>
+<iframe width="480" height="400" src="https://www.youtube.com/embed/F5CKw9IoydE" frameborder="0" allowfullscreen></iframe>
