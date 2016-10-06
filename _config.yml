@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 7ab44314787a88d9f4d4e73a40d79328b6aef20b
 # Site settings
 google_analytics:
 url: "https://rohanchandra30.github.io/"
@@ -31,13 +28,7 @@ description: "Blog and website of Rohan Chandra, blogging mainly for math and gr
 keywords: "personal, jekyll, theme"
 
 aboutme: "Welcome to my website. My name is Rohan Chandra. I am a senior pursuing electronics and communication at Delhi Technological University, New Delhi, India. My hobbies are playing chess and 'mathemagics'. The latter is a just a fancy term for vedic math or speed math. My favorite game is the one where you take apart the number from the number plate of the car in front of you and multiply it in your head. My record is 13 cars in 56 seconds. So the take away is you probably shouldn't get into a car with me.  
-<<<<<<< HEAD
-  
-=======
 
-  
-
->>>>>>> 7ab44314787a88d9f4d4e73a40d79328b6aef20b
 I am interested in studying artificial intelligence and algorithms. But to make use of my ECE background, I want to include a flavour of hardware too, so I shall also be studying a bit of robotics. So basically, I want to be somewhere in the intersection of AI, algorithms and robotics!" 
 
 ################
@@ -53,7 +44,7 @@ me-img: "/img/websiteimage2.jpg"
 ##############################
 
 dynamic-typing: True
-<<<<<<< HEAD
+
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
@@ -61,7 +52,7 @@ type-speed: 10    # Default 10
 start-delay: 200  # Default 200
 delete-delay: 5000  # Default 5000
 lines:      # You can add HTML Tags in the Text
-=======
+
 shuffle: True	# Shuffle the lines.
 loop: True
 loop-count:	False # Set False for infinite loop, or set any number for finite loop.
@@ -69,7 +60,7 @@ type-speed:	10		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
->>>>>>> 7ab44314787a88d9f4d4e73a40d79328b6aef20b
+
   - text: "I'll either find a way or make one myself."
   - text: "Keep at it. Never give up !"
 
@@ -93,12 +84,11 @@ disqus-shortname: "Rohan"
 ###############
 
 events:
-<<<<<<< HEAD
+
   - image: "/img/career/UMD.png"
     date: "August 2016 - May 2018"
     description: "Masters in Computer Science"
-=======
->>>>>>> 7ab44314787a88d9f4d4e73a40d79328b6aef20b
+
   - image: "/img/career/IIITD.png"
     date: "December 2015 - June 2016"
     description: "Research Assistant working in autonomous robotics!"
@@ -142,7 +132,6 @@ collections:
 relative_permalinks: false
 
 
- 
 
 # First image of the Career timeline
 career-img: "/img/career/ashstart.jpg"
