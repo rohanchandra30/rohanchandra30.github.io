@@ -4,6 +4,11 @@ name: Indraprastha Institute of Information Technology, New Delhi, India
 description: I am working with <a href="https://www.iiitd.edu.in/~anands/">Dr. Saket Anand</a> in the field of autonomous robotics and computer vision from December 2015 till July 2016. Also, I am auditing CSE 222 Algorithms Design and Analysis taught by <a href="https://www.iiitd.ac.in/rajiv">Dr. Rajiv Raman</a>
 ---
 
+<<<<<<< HEAD
+I worked as a research assistant in Dr. Saket Anand's group at Indraprastha Institute of Information Technology, Delhi on autonomous robotics for 5-6 months. I worked on the driverless car project where I implemented a succesful lane detection algorithm that could detect even poorly painted lane markings.
+
+I learned to work with 3D pointclouds and succesfully implemented a scan-matching ICP algorithm 
+=======
 I am working as a research assistant in Dr. Saket Anand's group at Indraprastha Institute of Information Technology, Delhi on autonomous robotics for 5-6 months. We are one of the 13 teams cut down from 259 initially competing in the <a href="http://www.sparktherise.com/program-detail/driverless-car-challenge">"Spark For Rise"</a> driverless car challenge initiated by Mahindra. The objective of this competition is to revolutionise driving on the streets of India with the thinking that if autonomous cars can run on Indian roads, they can run on any road in the world.  
 
 Our team is called <a href="https://www.facebook.com/swarathatiiitd">"Swarath"</a>. We are a mix of faculty and students from IIIT-Delhi, who together have expertise in vision, robotics, embedded systems, sensing, and communications. Our ultimate goal is to launch autonomous shuttles that provide anytime last mile connectivity in Indian cities.  
@@ -34,6 +39,7 @@ I followed this tutorial to set up my ROS nodes. <a href="https://siddhantahuja.
 It has now been around a month since I joined Swarath. I have gained an excellent control over ROS, computer vision and programming in general. I am now comfortable with writing code for executing nodes, how to write and implement launch files and how to define custom messages and embed information from nodes into those messages.
 
 I added some 200 lines of code to Shubham's lane detection algorithm and visibly improved its accuracy to the point that I can safely call it 'our' algorithm. I ported this algorithm to the joystick controlled e-Rick and collected data to assess the performance of our lane detection algorithm on the roads of IIIT. 
+>>>>>>> 7ab44314787a88d9f4d4e73a40d79328b6aef20b
 
 You can check out the Joystick controlled e-Rick and our lane detection algorithm below !
 
@@ -44,4 +50,8 @@ We are working on Way Point Navigation next and pretty soon, I'll be uploading a
 
 Obstacle Detection Added (at the end)
 
+<<<<<<< HEAD
 <iframe width="480" height="400" src="https://www.youtube.com/embed/F5CKw9IoydE" frameborder="0" allowfullscreen></iframe>
+=======
+<iframe width="480" height="400" src="https://www.youtube.com/embed/F5CKw9IoydE" frameborder="0" allowfullscreen></iframe>
+>>>>>>> 7ab44314787a88d9f4d4e73a40d79328b6aef20b
