@@ -27,10 +27,7 @@ favicon: "/img/gohan.ico"
 description: "Blog and website of Rohan Chandra, blogging mainly for math and grad admissions in the near future."
 keywords: "personal, jekyll, theme"
 
-aboutme: "Welcome to my website. My name is Rohan Chandra. I am a senior pursuing electronics and communication at Delhi Technological University, New Delhi, India. My hobbies are playing chess and 'mathemagics'. The latter is a just a fancy term for vedic math or speed math. My favorite game is the one where you take apart the number from the number plate of the car in front of you and multiply it in your head. My record is 13 cars in 56 seconds. So the take away is you probably shouldn't get into a car with me.  
-
-I am interested in studying artificial intelligence and algorithms. But to make use of my ECE background, I want to include a flavour of hardware too, so I shall also be studying a bit of robotics. So basically, I want to be somewhere in the intersection of AI, algorithms and robotics!" 
-
+aboutme: "I am a first year masters student in Computer Science at the University of Maryland, College Park. I am interested in the intersection of robotics and computer vision"
 ################
 # Intro layout #
 ################
@@ -88,19 +85,12 @@ events:
   - image: "/img/career/UMD.png"
     date: "August 2016 - May 2018"
     description: "Masters in Computer Science"
-
   - image: "/img/career/IIITD.png"
     date: "December 2015 - June 2016"
     description: "Research Assistant working in autonomous robotics!"
-  - image: "/img/career/amity-logo.png"
-    date: "August 2015 - September 2015 "
-    description: "Worked as a research asistant on classification and machine learning"
   - image: "/img/career/UMD.png"
     date: "June 2015 - August 2015"
     description: "Summer research intern- Worked in Neural Source Localisation"
-  - image: "/img/career/MECHARTES.jpg"
-    date: "December 2014 - January 2015"
-    description: "Worked as project design intern on a home automation project to design a biometric module based finger print sensing lock"
   - image: "/img/career/UCB.jpg"
     date: "June 2014 - August 2014"
     description: "Studied Urban and Finance Economics at the Berkeley summer session"
