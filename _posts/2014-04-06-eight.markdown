@@ -1,7 +1,0 @@
----
-layout: default
-date:   2016-01-20 23:26:12
-photo: img_1721.png
-caption_header: You can see Burj-al-Arab in the background!
-caption: sample caption
----

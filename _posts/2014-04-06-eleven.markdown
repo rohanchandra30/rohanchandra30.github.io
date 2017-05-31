@@ -1,7 +1,0 @@
----
-layout: default
-date:   2016-01-20 23:26:12
-photo: img_1724.png
-caption_header: This place looks beautiful at night
-caption: sample caption
----

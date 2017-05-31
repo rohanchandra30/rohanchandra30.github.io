@@ -1,7 +1,0 @@
----
-layout: default
-date:   2016-01-20 23:26:12
-photo: img_1716.png
-caption_header: Me and my cousins
-caption: sample caption
----
