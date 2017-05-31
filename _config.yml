@@ -166,6 +166,7 @@ social:
 pages_list:
   About: 'about'
   Research: 'research'
+  Projects: 'Projects'		
   Career+Resumé: 'career'
   Blog+Image Gallery: 'blog'
   Contact: 'contact'
