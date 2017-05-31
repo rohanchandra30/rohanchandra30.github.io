@@ -3,7 +3,9 @@
                  
      <div class="sidebar-wrapper">
             <div class="profile-container">
+                <a href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/18528102_1134460853364685_3782574076923859443_n.jpg?oh=ed6919f97703c36e55c805f70bb36b9f&oe=59B40B57" target="_blank">
                 <img class="profile-img" src="{{site.baseurl}}/assets/images/{% if site.pic %}{{ site.pic }}{% else %}profile.png{% endif %}" alt="profile picture" />
+		</a>
                 <h1 class="name">{% if site.name %}{{site.name}}{% else %}Alan Doe{% endif %}</h1>
                 <h3 class="tagline">{% if site.tagline %}{{site.tagline}}{% else %}Full Stack Developer{% endif %}</h3>
             </div><!--//profile-container-->
@@ -11,8 +13,14 @@
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
                    
-                   {% if site.email %}
+                    {% if site.email %}
                     <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
+                    {% else %}
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:alan.doe@website.com">alan.doe@website.com</a></li>
+                    {% endif %}
+  		    
+                    {% if site.resume %}
+                    <li class="file"><i class="fa fa-file"></i><a href="mailto: {{site.email}}">{{site.resume}}</a></li>
                     {% else %}
                     <li class="email"><i class="fa fa-envelope"></i><a href="mailto:alan.doe@website.com">alan.doe@website.com</a></li>
                     {% endif %}
@@ -26,26 +34,26 @@
                     {% if site.website %}
                     <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
                     {% else %}
-                    <li class="website"><i class="fa fa-globe"></i><a href="http://blog.webjeda.com" target="_blank">blog.webjeda.com</a></li>
+                    <li class="website"><i class="fa fa-globe"></i><a href="https://rohanchandra306.wordpress.com/" target="_blank">{{site.blog}}</a></li>
                     {% endif %}
                     
-                    {% if site.linkedin %}
+                    <!--{% if site.linkedin %}
                     <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank">linkedin.com/in/{{site.linkedin}}</a></li>
                     {% else %}
                     <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/sharath-kumar-87669956" target="_blank">linkedin.com/in/sharathdt</a></li>
                     {% endif %}
-                    
+                    -->
                     {% if site.github %}
                     <li class="github"><i class="fa fa-github"></i><a href="http://github.com/{{site.github}}" target="_blank">github.com/{{site.github}}</a></li>
                     {% else %}
                     <li class="github"><i class="fa fa-github"></i><a href="http://github.com/sharu725" target="_blank">github.com/sharu725</a></li>
                     {% endif %}
-                    
+                    <!--
                     {% if site.twitter %}
                     <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
                     {% else %}
                      <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/@webjeda" target="_blank">@webjeda</a></li>
-                    {% endif %}
+                    {% endif %}-->
                     
                 </ul>
             </div><!--//contact-container-->
