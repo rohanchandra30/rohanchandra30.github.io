@@ -13,19 +13,17 @@
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
                    
-            
+                    {% if site.quora %}
+                    <li class="quora"><i class="fa fa-quora"></i><a href="https://www.quora.com/profile/Rohan-Chandra-9" target="_blank">{{site.quora}}</a></li>
+                    {% else %}
+                    <li class="github"><i class="fa fa-github"></i><a href="http://github.com/sharu725" target="_blank">github.com/sharu725</a></li>
+                    {% endif %}
 
 	            {% if site.scholar %}
                     <li class="scholar"><i class="fa fa-graduation-cap"></i><a href="https://scholar.google.com/citations?user=uOIgTt8AAAAJ&hl=en" target="_blank">{{site.scholar}}</a></li>
                     {% else %}
                     <li class="website"><i class="fa fa-globe"></i><a href="https://rohanchandra306.wordpress.com/" target="_blank">{{site.blog}}</a></li>
-                    {% endif %}
-  		    
-                   {% if site.quora %}
-                    <li class="quora"><i class="fa fa-quora"></i><a href="https://www.quora.com/profile/Rohan-Chandra-9" target="_blank">{{site.quora}}</a></li>
-                    {% else %}
-                    <li class="github"><i class="fa fa-github"></i><a href="http://github.com/sharu725" target="_blank">github.com/sharu725</a></li>
-                    {% endif %}
+                    {% endif %}  		                 
 
 	            {% if site.email %}
                     <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
