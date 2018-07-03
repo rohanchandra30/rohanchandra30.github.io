@@ -1,77 +1,9 @@
 <html> 
-<!-- <header>
-    <center><h1 class="sansserif">Pedestrian Tracking</h1></center>
-    <span class="right"><img src="rohanchandra30.github.io/assets/images/umd_logo.png" width="100" height="100"></span>
-
-</header>  -->
-
-<style>
-header {
-    background-color:#000000;
-    height:10%;
-    margin:0;
-    padding:0
-}
-
-.header img {
-  float: left;
-  width: 76px;
-  height: 70px;
-  background-color: #000000;
-}
-
-.header h1 {
-  text-align: center;
-  font-family: Arial;
-  top: 18px;
-  left: 10px;
-  color: #FFFFFF;
-}
-
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-.button2 {background-color: #008CBA;} /* Blue */
-.button3 {background-color: #f44336;} /* Red */ 
-.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
-.button5 {background-color: #555555;} /* Black */
-
-p.sansserif, h2.sansserif {
-    font-family: Arial, Helvetica, sans-serif;
-}
-h1.sansserif {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #FFFFFF
-    background-color:#000000;
-    height:10%;
-    margin:0;
-    padding:0
-}
-
-.right{
-    float:right;
-}
-
-.left{
-    float:left;
-}
-
-</style>
+<head><link rel="stylesheet" href="trackingPageStyle.css"></head>
 
 <header>
 <div class="header">
-  <img src="assets/images/umd_logo.jpg" width="100" height="100"/>
+  <img src="rohanchandra30.github.io/assets/images/umd_logo.jpg" width="100" height="100"/>
   <h1>Pedestrian Tracking</h1>
 </div>
 </header>
@@ -83,13 +15,13 @@ h1.sansserif {
 SORT and its variant, Deep SORT, is a tracking by detection algorithm.  Each object is associated with a linear constant velocity model. Associations between detections in successive frames is done by maximizing IOU of predicted and measured bounding boxes by using the Hungarian algorithm. In a more recent verison of this method, the authors have also used 2 additional metrics - the cosine metric, and the mahalanobis distance metric which help</p>
 
 <p class="sansserif"> The issue with using a linear constant velocity model is that they may not work in highy dense crowds. My research attempts to use a non linear motion model to track people in dense settings. Moreover, the performance of tracking-by-detection schemes depends hugely on the object detections at hand. I am thus also attempting to use improved detections.</p>
-<span class="left">
+<span class="left"><!-- 
 <h2><p class="sansserif">Tracking Results on the Alibaba Dataset</p></h2>
 <p class="sansserif">
 <a href="https://drive.google.com/open?id=1hCIg_d0-c0FqgtG8ZCsKCxt1ATYgBOui" title="Download movie" target="_new">BFEASTUPDOWN Results</a></br>
 <a href="https://drive.google.com/open?id=1_xDxQECMbwfJ_4nT4dJjY6qvnk72EjQc" title="Download movie" target="_new">1FEASTUPDown Results</a></br>
 <a href="https://drive.google.com/open?id=10-Z6WLNn7Mx_ZBn5rwLIPS06ZqQw7T-p" title="Download movie" target="_new">1FEAST Results</a></br>
-<a href="https://drive.google.com/open?id=1pICscqNzwtKZspFhbFqWQ3m5oCeuUbbs" title="Download movie" target="_new">1FWEST Results</a></br></p>
+<a href="https://drive.google.com/open?id=1pICscqNzwtKZspFhbFqWQ3m5oCeuUbbs" title="Download movie" target="_new">1FWEST Results</a></br></p> -->
 
 <h2><p class="sansserif">Tracking Results on MOT16 test set</p></h2>
 <p class="sansserif">
