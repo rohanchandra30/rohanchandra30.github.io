@@ -1,0 +1,436 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% -*- coding: UTF-8; -*-
+% vim: set fenc=utf-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% See "README.md" for instructions on compiling this document.
+
+\documentclass[letterpaper,MMMyyyy,nonstopmode]{simpleresumecv}
+% Class options:
+% a4paper, letterpaper, nonstopmode, draftmode
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Rohan Chandra}
+\newcommand{\CVTitle}{Rohan Chandra's CV}
+\newcommand{\CVNote}{CV compiled on {\today}}
+\newcommand{\CVWebpage}{https://rohanchandra30.github.io/}
+
+% PDF settings and properties.
+% \hypersetup{
+% pdftitle={\CVTitle},
+% pdfauthor={\CVAuthor},
+% pdfsubject={\CVWebpage},
+% pdfcreator={XeLaTeX},
+% pdfproducer={},
+% pdfkeywords={},
+% unicode=true,
+% bookmarks=true,
+% bookmarksopen=true,
+% pdfstartview=FitH,
+% pdfpagelayout=OneColumn,
+% pdfpagemode=UseOutlines,
+% hidelinks}
+
+% Shorthand.
+\newcommand{\Code}[1]{\mbox{\textbf{#1}}}
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\Title{\CVAuthor}
+
+\begin{SubTitle}
+{9210 Rhode Island Avenue, College Park, MD, 20740}
+\par
+{rohan@cs.umd.edu}
+\,\SubBulletSymbol\,
++1\,(240)\,447-5891
+\,\SubBulletSymbol\,
+\CVWebpage
+\end{SubTitle}
+
+\begin{Body}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Education}
+{Education}
+{PDF:Education}
+
+\Entry
+{\textbf{University of Maryland}},
+College Park, MD, USA
+
+\Gap
+\BulletItem
+M.S. in
+{Computer Science}
+\hfill
+\DatestampYMD{2016}{08}{15} --
+\DatestampYMD{2018}{05}{15}
+\begin{Detail}
+\SubBulletItem
+Cumulative GPA: 3.837 / 4.000
+\SubBulletItem
+Relevant Courses: Optimization, Machine Learning, Liner Algebra, Probability and Statistics.
+\end{Detail}
+
+\BigGap
+\Entry
+{\textbf{Delhi Technological University}},
+New Delhi, India
+
+\Gap
+\BulletItem
+B.Tech. in
+{ECE}
+\hfill
+\DatestampYMD{2012}{08}{15} --
+\DatestampYMD{2016}{05}{15}
+% \begin{Detail}
+% \SubBulletItem
+% Last 2 years GPA: 80.00 / 100.00
+% \end{Detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% RESEARCH EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Research Experience}
+{Research Experience}
+{PDF:ResearchExperience}
+
+\Entry
+{\textbf{{University of Maryland}},
+College Park, MD, USA
+
+\Gap
+\BulletItem
+Graduate Research Assistant, Computer Science Dept
+\hfill
+\DatestampYMD{2017}{04}{15} -- Present
+% \DatestampYMD{2005}{05}{15}
+\begin{Detail}
+\SubBulletItem
+\textbf{Developed Phasepack: }Phase Retrieval is an example of a non-convex quadratic program with
+quadratic constraints. In the real-valued case, it is a combinatorial problem which is known to be NP-hard. Despite
+this observation, recent years have seen the development of new algorithms that solve phase retrieval problems ef-
+fectively. Unfortunately, because of the lack of publicly available real-world data, the lack of a common software
+interface for different algorithms, and a knowledge gap between practitioners and theoreticians, only little work has
+been devoted to compare and evaluate newer phase retrieval methods. So we created Phasepack, comprehensive library that compiles all the algorithms within a uniform interface.
+
+\SubBulletItem
+\textbf{Low Rank Matrix Recovery: }Another example of intractability associated with non-convexity is low rank matrix recovery with quadratic measurement constraints where a solution is
+obtained by lifting the problem to a higher parameter space. To elaborate, lifting expresses a system of quadratic
+measurements as a system of linear equations whose solution is a matrix that obeys a rank constraint. However,
+working with matrices instead of vectors in higher dimensions generally means incurring large storage costs. As
+part of my MS thesis I am trying to solve the problem of low rank matrix recovery from quadratic measurement
+constraints without lifting i.e. in the natural parameter space. We observed that that Phasemax (Goldstein and Studor, 2016) solves phase retrieval by recovering solutions in the same space as the input without lifting to higher
+dimensions. Consequently it is a better alternative to current lifting solutions for solving SDP’s. Initial sketches of
+my proof look promising and I am currently in the process of formalizing this.
+\end{Detail}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% WORK EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Work Experience}
+{Work Experience}
+{PDF:ResearchExperience}
+
+\Entry
+{\textbf{{IIIT Delhi}},
+New Delhi, India
+
+\Gap
+\BulletItem
+Intern, Swarath - The Driverless Car Project
+\hfill
+\DatestampYMD{2016}{01}{15} --
+\DatestampYMD{2016}{06}{15}
+\begin{Detail}
+\SubBulletItem
+Helped design the lane detection module for the perception module using ROS, C++, and OpenCV.
+
+\SubBulletItem
+Implemented the localization and navigation algorithms used in the planning module.
+
+\SubBulletItem
+Helped design India's first joystick enabled e-Rickshaw. Won the \textbf{first prize} in IIIT Delhi's Research Showcase in March 2016
+\end{Detail}
+
+%%%%%%%%%%%%%%%%%%
+%% PUBLICATIONS %%
+%%%%%%%%%%%%%%%%%%
+
+\Section
+{Publications}
+{Publications}
+{PDF:Publications}
+
+\SubSection
+{Journals}
+{Journals}
+{PDF:Journals}
+
+% Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
+\begingroup
+\renewcommand{\MaxNumberedItem}{[88]}
+
+\Gap
+\NumberedItem{[1]}
+\href{http://www.jstor.org/stable/10.4169/college.math.j.47.4.281}
+{Arthur Benjamin, \underline{Rohan Chandra},
+``Multiplying by 9,''
+\textit{The College Mathematics Journal},
+vol.47,
+no.~4,
+pp.~281,
+\DatestampYM{2016}{09}.}
+
+\Gap
+\NumberedItem{[2]}
+\href{https://search.proquest.com/openview/324892b65f61b2bd4cee1526c67b0ef8/1?pq-origsite=gscholar&cbl=2030624}
+{Rashika Anurag, Neeta Pandey, \underline{Rohan Chandra}, Rajeshwari Pandey,
+``Voltage Mode Second Order Notch/All - Pass Filter Realization Using OTRA,''
+\textit{i-Manager's Journal on Electronics Engineering},
+vol.~6,
+no.~2,
+pp.~22--28,
+\DatestampYM{2015}{12}.}
+
+\endgroup
+
+\BigGap
+\SubSection
+{Conferences}
+{Conferences}
+{PDF:Conferences}
+
+% Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
+\begingroup
+\renewcommand{\MaxNumberedItem}{[8888]}
+
+\Gap
+\NumberedItem{[3]}
+\href{https://arxiv.org/abs/1712.08838}
+{\underline{Rohan Chandra}, S Grover, K Lee, M Meshry, A Taha, ``Texture Synthesis with Recurrent Variational Auto-Encoder,'' in \textit{arXiv Preprint},
+\DatestampYM{2017}{12}.}
+
+\Gap
+\NumberedItem{[4]}
+\href{https://arxiv.org/abs/1711.10175}
+{\underline{Rohan Chandra}, Ziyuan Zhong, Justin Hontz, Val McCulloch, Christoph Studer, Tom Goldstein,
+``Phasepack: A Phase Retrieval Library,''
+ submitted to \textit{IEEE Proceedings of the 51st Asilomar Conference on Signals, Systems and Computers},
+Asilomar, CA, USA,
+\DatestampYM{2017}{11}.}
+
+\Gap
+\NumberedItem{[5]}
+\href{https://arxiv.org/abs/1711.09777}
+{\underline{Rohan Chandra}, Ziyuan Zhong, Justin Hontz, Val McCulloch, Christoph Studer, Tom Goldstein,
+``Phasepack User Guide,''
+in \textit{arXiv Preprint},
+\DatestampYM{2017}{11}.}
+
+
+\endgroup
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% AWARDS & SCHOLARSHIPS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Achievements \& Strengths}
+{Awards \& Scholarships}
+{PDF:AwardsAndScholarships}
+
+\BulletItem
+Top Writer on Quora in mathematical optimization category
+\hfill
+% \DatestampY{2017}
+% \DatestampY{2005}
+
+
+\Gap
+\BulletItem
+State level chess player
+
+\Gap
+\BulletItem
+Speed math
+\begin{Detail}
+\Item
+Published a number of techniques for speed arithmetic without paper and pencil.
+\end{Detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PROFESSIONAL AFFILIATIONS & ACTIVITIES %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Professional Service}
+{Professional Affiliations \& Activities}
+{PDF:ProfessionalAffiliationsActivities}
+
+\Entry
+{Dept of computer science, UMD},
+\newline
+College Park, MD, USA
+
+\Gap
+\BulletItem
+Application Reviewer for graduate school admissions.
+\hfill
+\DatestampY{2016} --
+Present
+
+% Manual page break.
+% \newpage
+
+
+% %%%%%%%%%%%%%%%
+% %% LANGUAGES %%
+% %%%%%%%%%%%%%%%
+
+% \Section
+% {Languages}
+% {Languages}
+% {PDF:Languages}
+
+% \BulletItem
+% Hindi: Native language.
+
+% \Gap
+% \BulletItem
+% English: Fluent (speaking, reading, writing).
+
+% \Gap
+% \BulletItem
+% German: Fluent (reading, writing); intermediate (speaking).
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+\Section
+{Technical Skills}
+{Skills}
+{PDF:Skills}
+
+\Entry
+Python,
+MATLAB,
+{\LaTeX},
+Microsoft Office Suite
+
+\BigGap
+
+
+%%%%%%%%%%%%%%%
+%% INTERESTS %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Interests}
+{Interests}
+{PDF:Interests}
+
+\Entry
+Chess,
+Academia,
+Mental Math,
+
+%%%%%%%%%%%%%%%%
+%% REFERENCES %%
+%%%%%%%%%%%%%%%%
+
+% \Section
+% {References}
+% {References}
+% {PDF:References}
+
+% \BulletItem
+% \textbf{Dr. Tom Goldstein}
+% \newline
+% Assistant Professor of Computer Science
+% \newline
+% University of Maryland,
+% \newline
+% College Park, MD, USA
+% \newline
+% \href{mailto:tomg@cs.umd.edu}
+% {tomg@cs.umd.edu}
+% \,\SubBulletSymbol\,
+% +1\,(301)\,405-0053
+
+% \BigGap
+% \BulletItem
+% \textbf{Jason Filippou}
+% \newline
+% Lecturer of Computer Science
+% \newline
+% University of Maryland,
+% \newline
+% College Park, MD, USA
+% \newline
+% \href{mailto:jasonfil@umiacs.umd.edu}
+% {jasonfil@umiacs.umd.edu}
+% \,\SubBulletSymbol\,
+% +1\,(301)\,405-2726
+
+
+% \BigGap
+% \BulletItem
+% \textbf{Dr. Yiannis Aloimonos}
+% \newline
+% Professor of Computer Science
+% \newline
+% University of Maryland,
+% \newline
+% College Park, MD, USA
+% \newline
+% \href{mailto:yiannis@cs.umd.edu}
+% {yiannis@cs.umd.edu}
+% \,\SubBulletSymbol\,
+% +1\,(301)\,405-1743
+
+
+\end{Body}
+
+%%%%%%%%%%%
+% CV NOTE %
+%%%%%%%%%%%
+
+% \UseNoteFont%
+% \null\hfill%
+% [\textit{\CVNote}]
+
+\end{document}

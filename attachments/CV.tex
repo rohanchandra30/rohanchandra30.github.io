@@ -1,0 +1,157 @@
+\documentclass[a4paper,8pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.1in, left=0.3in, bottom = 0.25cm, right=0.3in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}	
+\usepackage{tabularx}
+\usepackage{enumitem}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=black,
+}
+
+\urlstyle{same}
+
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\usepackage{tcolorbox}
+\definecolor{mygrey}{gray}{0.75}
+% \textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{\begin{tcolorbox} \begin{center} #1 \end{center} \end{tcolorbox}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+% \hspace{0.5cm}\\[-0.2cm]
+
+\textbf{\large{Rohan Chandra}} 
+% \indent 9210 Rhode Island Ave, \\
+% \indent College Park, MD, 20740  \\
+\indent Email : \textbf{rohan@cs.umd.edu}  \ homepage: \textbf{https://rohanchandra30.github.io/}\\
+% \indent Mobile No.: \textbf{+1 2404475891} \\
+
+\resheading{\textbf{ACADEMIC DETAILS} }
+%\begin{table}[ht!]
+%\begin{center}
+\indent \begin{tabular}{ c @{\hskip 1in} c @{\hskip 1in} c @{\hskip .5in} c @{\hskip .5in} c @{\hskip 0.4in} }
+% \bigskip
+\textbf{Program} & \multicolumn{1}{c}{\textbf{University}} &  & \textbf{GPA(\small{Last Two Years})} & \textbf{Class High}\\
+M.S. in CS, 2018\,\, & \multicolumn{1}{c}{University of Maryland} & & {3.837	} & {4.00}\\
+B.Tech in ECE, 2016 & \multicolumn{1}{c}{Delhi Technological University} & & {80.00} & {84.00}\\
+% \hline
+\end{tabular}
+% \bigskip
+% \newline
+% \textit{Undergraduate Thesis:} A Novel Architecture For A Band-Stop Notch Filter. \href{http://search.proquest.com/openview/324892b65f61b2bd4cee1526c67b0ef8/1?pq-origsite=gscholar&cbl=2030624}{\textbf{Paper}}
+%\end{center}
+%\end{table}
+
+
+\resheading{\textbf{RELEVANT CLASSES} }
+%\begin{table}[ht!]
+%\begin{center}
+\indent \begin{tabular}{ l @{\hskip 1.1in} l @{\hskip 1.1in} l @{\hskip 1.1in}  }
+% \bigskip
+% \hline
+\textbf{PhD level} & \textbf{Text(coverage)} & \textbf{Masters level}   \\
+% \hline
+Optimization & \textit{Boyd/Research Papers} & Linear Algebra  \\
+Machine Learning & \textit{UML, FML, Murphy} & Prob. and Stats  \\
+Computer Vision & \textit{Research Papers} &  Statistics I\\
+Spectral Methods and Reinforcement Learning & \textit{Research Papers}
+% \hline
+\end{tabular}
+
+
+\resheading{\textbf{PUBLICATIONS} }
+\begin{itemize}[noitemsep]
+\item \noindent \textbf{Rohan Chandra}, Ziyuan Zhong, Justin Hontz, Val McCulloch, Christoph Studer, Tom Goldstein, \textit{Phasepack User Guide}, arXiv Preprint, 2017
+\item \noindent \textbf{Rohan Chandra}, Ziyuan Zhong, Justin Hontz, Val McCulloch, Christoph Studer, Tom Goldstein, \textit{Phasepack: A Phase Retrieval Library}, Submitted to IEEE Proceedings of Asilomar Conference on Signals, Signals, Systems and Computers, 2017.
+\item \noindent Arthur Benjamin, \textbf{Rohan Chandra}, \textit{Multiply by 9}, The College Mathematics Journal, 2016.
+\item \noindent Rashika Anurag, Neeta Pandey, \textbf{Rohan Chandra}, Rajeshwari Pandey, \textit{Voltage Mode Second Order Notch/All-Pass Filter Realization Using OTRA}, i-Manager's Journal on Electronics Engineering, 2016. \textit{Undergraduate Thesis}
+\end{itemize}
+
+% \resheading{\textbf{RESEARCH EXPERIENCE} }
+% \begin{itemize}[noitemsep]
+% \item \textbf{Phase Retrieval:} Created PhasePack, a library for various classical and contemporary phase retrieval algorithms. PhasePack's purpose is to create a common interface for a wide range of phase retrieval schemes, and to provide a common test bed using both syntheitc and empirical imaging datasets.
+
+% \end{itemize}
+
+
+\resheading{\textbf{PROJECTS} }
+\begin{itemize}[noitemsep]
+\item \textbf{Texture Synthesis using Stacked VAE's:} Based on the success of DRAW - a generative model to create images, I am extending the concept to create textures.
+
+\item\textbf{Autonomous Vehicles:} Implemented the lane detection module and helped engineer a joystick enabled 3-wheeler. Also worked in navigation and localisation. 
+
+\item \textbf{Structure from Motion:} Wrote code from scratch and successfully reconstructed a 3-D scene from multiple images using non-linear optimization of feature point triangulation, PnP, and finally bundle adjustment. Received highest points for this project.
+\end{itemize}
+
+
+
+% \end{itemize}
+
+\resheading{\textbf{TEACHING EXPERIENCE} }
+\begin{itemize}[noitemsep]
+\item \noindent Discrete Mathematics (Fall 2017) (Recitation, Office Hours, Grading)
+\item \noindent Intro to Object Oriented Programming (Spring 2017) (Office Hours, Grading)
+\item \noindent Computer Networks (Fall 2016) (Office Hours, Grading)
+\end{itemize}
+
+
+\resheading{\textbf{STRENGTHS \& SKILLS} }
+\begin{itemize}[noitemsep]
+\item \textbf{Top Writer} in the category of mathematical optimization on Quora.
+
+\item \textbf{Mental Math, Speed Math}\\
+ \emph{Links for these articles can be found on my homepage} \\[-0.6cm]\\
+	\begin{itemize}\itemsep \isep
+	\item Faster method to mentally multiply numbers by 9, 99, 999... and so on (method co-authored with \href{https://www.ted.com/talks/arthur_benjamin_does_mathemagic}{\textbf{Dr. Arthur Benjamin}}.
+	\item Alternate method to square two digit numbers.
+	\item Generalizing the "Find The Missing Digit Trick!"
+	\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+\item \noindent \textbf{Chess}: State Level Champion
+\end{itemize}
+
+\resheading{\textbf{DEPARTMENTAL SERVICE} }
+\begin{itemize}
+\item \noindent Part of the fall 2017 \textbf{review committee} at UMD that screens applications for the Masters in CS program.
+\end{itemize}
+
+
+
+
+ % \emph{You can read about these in my \href{https://rohanchandra306.wordpress.com/}{\textbf{blog}}} \\[-0.6cm]
+\end{document}
+
