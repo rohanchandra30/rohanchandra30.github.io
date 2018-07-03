@@ -29,10 +29,7 @@ header {
 .button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
 .button5 {background-color: #555555;} /* Black */
 
-p.serif {
-    font-family: "Times New Roman", Times, serif;
-}
-p.sansserif {
+p.sansserif, h2.sansserif {
     font-family: Arial, Helvetica, sans-serif;
 }
 h1.sansserif {
@@ -40,12 +37,23 @@ h1.sansserif {
     color: #FFFFFF
 }
 
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
+}
+
+
 </style> 
 <body>
 
 <p class = "sansserif">
-SORT and its variant, Deep SORT, is a tracking by detection algorithm.  Each object is associated with a linear constant velocity model.  Associations between detections in successive frames is done by maximizing IOU of predicted and measured bounding boxes by using the Hungarian algorithm.</p>
+SORT and its variant, Deep SORT, is a tracking by detection algorithm.  Each object is associated with a linear constant velocity model. Associations between detections in successive frames is done by maximizing IOU of predicted and measured bounding boxes by using the Hungarian algorithm. In a more recent verison of this method, the authors have also used 2 additional metrics - the cosine metric, and the mahalanobis distance metric which help</p>
 
+<p class="sansserif"> The issue with using a linear constant velocity model is that they may not work in highy dense crowds. My research attempts to use a non linear motion model to track people in dense settings. Moreover, the performance of tracking-by-detection schemes depends hugely on the object detections at hand. I am thus also attempting to use improved detections.</p>
+<span class="left">
 <h2><p class="sansserif">Tracking Results on the Alibaba Dataset</p></h2>
 <p class="sansserif">
 <a href="https://drive.google.com/open?id=1hCIg_d0-c0FqgtG8ZCsKCxt1ATYgBOui" title="Download movie" target="_new">BFEASTUPDOWN Results</a></br>
@@ -62,8 +70,10 @@ SORT and its variant, Deep SORT, is a tracking by detection algorithm.  Each obj
 <a href="https://drive.google.com/open?id=11PIRtp72Kgn5JTXt4ub1JthppfuW2rCm" title="Download movie" target="_new">MOT16-08</a></br>
 <a href="https://drive.google.com/open?id=1NywGWrJahlhSg_iHsrEJrEzf5TA3aM3E" title="Download movie" target="_new">MOT16-12</a></br>
 <a href="https://drive.google.com/open?id=12Fh8Mn0-m5lMrSuHRQEjiBOR4-sz7iWh" title="Download movie" target="_new">MOT16-14</a></br></p>
+</span>
 
-<h2><p class="sansserif">Tracking Results on MOT15 test set</p></h2>
+<span class="right">
+<h2 class="sansserif">Tracking Results on MOT15 test set</h2>
 <p class="sansserif">
 <a href="https://drive.google.com/open?id=1uVJ3NqQiSL5i3gzGT0wbry3ec2fOxFmd" title="Download movie" target="_new">ADL-Rundle-1</a></br>
 <a href="https://drive.google.com/open?id=1zH3Kd2ann8OsC2u_pqNI68DTb-dURNyK" title="Download movie" target="_new">ADL-Rundle-3</a></br>
@@ -76,6 +86,14 @@ SORT and its variant, Deep SORT, is a tracking by detection algorithm.  Each obj
 <a href="https://drive.google.com/open?id=10pREbcw61tQKSQFswzN9r6uphas1-OOG" title="Download movie" target="_new">PETS09-S2L2</a></br>
 <a href="https://drive.google.com/open?id=1gLPoh0qFwRW-_oPc3Nl1UUom9_xsiJ3s" title="Download movie" target="_new">TUD-Crossing</a></br>
 <a href="https://drive.google.com/open?id=1TFC1LUimU-SgHox9Cpp6kI_JBLl_je0Y" title="Download movie" target="_new">Venice-1</a></br></p>
+
+
+<h2 class="sansserif">Tracking Results on Dense Datasets</h2>
+<p class="sansserif">
+    
+
+</p>
+</span>
 </body>
 </html>
 
