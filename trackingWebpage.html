@@ -1,14 +1,31 @@
 <html> 
-<header>
+<!-- <header>
     <center><h1 class="sansserif">Pedestrian Tracking</h1></center>
+    <span class="right"><img src="rohanchandra30.github.io/assets/images/umd_logo.png" width="100" height="100"></span>
 
-</header> 
+</header>  -->
+
 <style>
 header {
     background-color:#000000;
     height:10%;
     margin:0;
     padding:0
+}
+
+.header img {
+  float: left;
+  width: 76px;
+  height: 76px;
+  background-color: #000000;
+}
+
+.header h1 {
+  text-align: center;
+  font-family: Arial;
+  top: 18px;
+  left: 10px;
+  color: #FFFFFF;
 }
 
 .button {
@@ -33,8 +50,13 @@ p.sansserif, h2.sansserif {
     font-family: Arial, Helvetica, sans-serif;
 }
 h1.sansserif {
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF
+    background-color:#000000;
+    height:10%;
+    margin:0;
+    padding:0
 }
 
 .right{
@@ -45,10 +67,18 @@ h1.sansserif {
     float:left;
 }
 
+</style>
 
-</style> 
+<header>
+<div class="header">
+  <img src="rohanchandra30.github.io/assets/images/umd_logo.png" width="100" height="100"/>
+  <h1>Pedestrian Tracking</h1>
+</div>
+</header>
+
+
 <body>
-
+<br><br>
 <p class = "sansserif">
 SORT and its variant, Deep SORT, is a tracking by detection algorithm.  Each object is associated with a linear constant velocity model. Associations between detections in successive frames is done by maximizing IOU of predicted and measured bounding boxes by using the Hungarian algorithm. In a more recent verison of this method, the authors have also used 2 additional metrics - the cosine metric, and the mahalanobis distance metric which help</p>
 
