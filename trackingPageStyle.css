@@ -1,9 +1,28 @@
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
 header {
     background-color:#000000;
     height:10%;
     margin:0;
     padding:0
 }
+
+li { font-family: Arial, Sans-Serif }
+
 
 .header img {
   float: left;

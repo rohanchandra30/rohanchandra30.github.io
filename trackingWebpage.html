@@ -1,5 +1,22 @@
 <html> 
 <head><link rel="stylesheet" href="trackingPageStyle.css"></head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+</style>
 
 <header>
 <div class="header">
@@ -24,6 +41,39 @@ SORT and its variant, Deep SORT, is a tracking by detection algorithm.  Each obj
 <a href="https://drive.google.com/open?id=1pICscqNzwtKZspFhbFqWQ3m5oCeuUbbs" title="Download movie" target="_new">1FWEST Results</a></br></p> -->
 
 <h2><p class="sansserif">Tracking Results on MOT16 test set</p></h2>
+
+<table>
+  <tr>
+    <th>MOTA</th>
+    <th>MOTP</th>
+    <th>MT</th>
+    <th>ML</th>
+    <th>FP</th>
+    <th>FN</th>
+    <th>IDsw</th>
+    <th>Recall</th>
+    <th>Precision</th>
+  </tr>
+    <tr>
+    <th>40.9</th>
+    <th>75.5</th>
+    <th>20.3%</th>
+    <th>36.1%</th>
+    <th>28,693</th>
+    <th>78,413</th>
+    <th>722</th>
+    <th>57%</th>
+    <th>78.4%</th>
+  </tr>
+  </table>
+
+<p class="sansserif">When compared with methods that use public detections, our tracker achieves
+<ul>
+    <li> Lowest number of false negatives </li>
+    <li>Second highest result for MT (Mostly Tracked)</li>
+    <li>Second Lowest result for ML (Mostly Lost)</li>
+</ul>
+</p>
 <p class="sansserif">
 <a href="https://drive.google.com/open?id=1vkS85rJnmskJ5K7Esj7dbVo8rLWpdQoN" title="Download movie" target="_new">MOT16-01</a></br>
 <a href="https://drive.google.com/open?id=1afn6Yp3KfK7OXtLWpaf1W7C39l5o45r7" title="Download movie" target="_new">MOT16-03</a></br>
