@@ -21,7 +21,7 @@ tr:nth-child(even) {
 <header>
 <div class="header">
   <img src="rohanchandra30.github.io/assets/images/umd_logo.jpg" width="100" height="100"/>
-  <h1>Pedestrian Tracking</h1>
+  <h1>Mask-RVO: A Robust and Novel Pedestrian Tracker for Highly Dense Crowds</h1>
 </div>
 </header>
 
@@ -29,9 +29,7 @@ tr:nth-child(even) {
 <body>
 <br><br>
 <p class = "sansserif">
-SORT and its variant, Deep SORT, is a tracking by detection algorithm.  Each object is associated with a linear constant velocity model. Associations between detections in successive frames is done by maximizing IOU of predicted and measured bounding boxes by using the Hungarian algorithm. In a more recent verison of this method, the authors have also used 2 additional metrics - the cosine metric, and the mahalanobis distance metric which help</p>
-
-<p class="sansserif"> The issue with using a linear constant velocity model is that they may not work in highy dense crowds. My research attempts to use a non linear motion model to track people in dense settings. Moreover, the performance of tracking-by-detection schemes depends hugely on the object detections at hand. I am thus also attempting to use improved detections.</p>
+We present a new pedestrian tracking architecture that works in highly dense settings. Our architecture comprises of a non-linear motion model and uses detections computed using Mask-RCNN. We use many different datasets including the standard MOT benchmark and non standard but much more highly dense datasets. We achieve state of the art results in reducing the number of false negatives and highly competitive results in most other metrics. Our tracker is generalized to perform well in videos of varying properties such as density, camera angle, camera motion, FPS, and lighting. Our tracker is online and works in real-time.</p>
 <span class="left"><!-- 
 <h2><p class="sansserif">Tracking Results on the Alibaba Dataset</p></h2>
 <p class="sansserif">
