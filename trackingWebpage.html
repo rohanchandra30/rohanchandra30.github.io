@@ -1,149 +1,41 @@
 <html> 
 <head><link rel="stylesheet" href="trackingPageStyle.css"></head>
-<style>
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #d3d3d3;
-}
-</style>
 
 <header>
 <div class="header">
-  <img src="rohanchandra30.github.io/assets/images/umd_logo.jpg" width="100" height="100"/>
-  <h1>Mask-RVO: A Robust and Novel Pedestrian Tracker for Highly Dense Crowds</h1>
+  <h1><i>DeepTAgent:</i> Realtime Tracking of Highly Heterogeneous Agents in Very Dense Traffic</h1>
 </div>
 </header>
-
-
 <body>
-<br><br>
 <p class = "sansserif">
-We present a new pedestrian tracking architecture that works in highly dense settings. Our architecture comprises of a non-linear motion model and uses detections computed using Mask-RCNN. We use many different datasets including the standard MOT benchmark and non standard but much more highly dense datasets. We achieve state of the art results in reducing the number of false negatives and highly competitive results in most other metrics. Our tracker is generalized to perform well in videos of varying properties such as density, camera angle, camera motion, FPS, and lighting. Our tracker is online and works in real-time.</p>
-<span class="left"><!-- 
-<h2><p class="sansserif">Tracking Results on the Alibaba Dataset</p></h2>
-<p class="sansserif">
-<a href="https://drive.google.com/open?id=1hCIg_d0-c0FqgtG8ZCsKCxt1ATYgBOui" title="Download movie" target="_new">BFEASTUPDOWN Results</a></br>
-<a href="https://drive.google.com/open?id=1_xDxQECMbwfJ_4nT4dJjY6qvnk72EjQc" title="Download movie" target="_new">1FEASTUPDown Results</a></br>
-<a href="https://drive.google.com/open?id=10-Z6WLNn7Mx_ZBn5rwLIPS06ZqQw7T-p" title="Download movie" target="_new">1FEAST Results</a></br>
-<a href="https://drive.google.com/open?id=1pICscqNzwtKZspFhbFqWQ3m5oCeuUbbs" title="Download movie" target="_new">1FWEST Results</a></br></p> -->
-
-<h2><p class="sansserif">Tracking Results on MOT16 test set</p></h2>
-
-<table>
-  <tr>
-    <th>MOTA</th>
-    <th>MOTP</th>
-    <th>MT</th>
-    <th>ML</th>
-    <th>FP</th>
-    <th>FN</th>
-    <th>IDsw</th>
-    <th>Recall</th>
-    <th>Precision</th>
-  </tr>
-    <tr>
-    <th>40.9</th>
-    <th>75.5</th>
-    <th>20.3%</th>
-    <th>36.1%</th>
-    <th>28,693</th>
-    <th>78,413</th>
-    <th>722</th>
-    <th>57%</th>
-    <th>78.4%</th>
-  </tr>
-  </table>
-
-<p class="sansserif">When compared with methods that use public detections, our tracker achieves
-<ul>
-    <li> Lowest number of false negatives </li>
-    <li>Second highest result for MT (Mostly Tracked)</li>
-    <li>Second Lowest result for ML (Mostly Lost)</li>
-</ul>
-</p>
-<p class="sansserif">
-<a href="https://drive.google.com/open?id=1vkS85rJnmskJ5K7Esj7dbVo8rLWpdQoN" title="Download movie" target="_new">MOT16-01</a></br>
-<a href="https://drive.google.com/open?id=1afn6Yp3KfK7OXtLWpaf1W7C39l5o45r7" title="Download movie" target="_new">MOT16-03</a></br>
-<a href="https://drive.google.com/open?id=1unnVnJR-o28NXg80QmRjQtHoZIhQLaUv" title="Download movie" target="_new">MOT16-06</a></br>
-<a href="https://drive.google.com/open?id=1ufuST94dyb_nR7DAR47tnbnIxJ_AJc4w" title="Download movie" target="_new">MOT16-07</a></br>
-<a href="https://drive.google.com/open?id=11PIRtp72Kgn5JTXt4ub1JthppfuW2rCm" title="Download movie" target="_new">MOT16-08</a></br>
-<a href="https://drive.google.com/open?id=1NywGWrJahlhSg_iHsrEJrEzf5TA3aM3E" title="Download movie" target="_new">MOT16-12</a></br>
-<a href="https://drive.google.com/open?id=12Fh8Mn0-m5lMrSuHRQEjiBOR4-sz7iWh" title="Download movie" target="_new">MOT16-14</a></br></p>
-
-
-<h2><p class="sansserif">Tracking Results on Dataset from Dr. Jia Pan</p></h2>
-<p class="sansserif">
-<a href="https://drive.google.com/open?id=1dL-Q2DtTJsiAb1T4TPIkqPRbka04j0Sm" title="Download movie" target="_new">INDOOR1 Results</a></br>
-<a href="https://drive.google.com/open?id=168NRAxaxUP1oLffsQPJWz47sdvUUmT9g" title="Download movie" target="_new">INDOOR2 Results</a></br>
-<a href="https://drive.google.com/open?id=1sR_Aas5sptZSLC_e0UUXBvpB9opWL76T" title="Download movie" target="_new">MARKET Results</a></br></p>
-
-</span>
-
-<span class="right">
-<h2 class="sansserif">Tracking Results on MOT15 test set</h2>
-
-<table>
-  <tr>
-    <th>MOTA</th>
-    <th>MOTP</th>
-    <th>MT</th>
-    <th>ML</th>
-    <th>FP</th>
-    <th>FN</th>
-    <th>IDsw</th>
-    <th>Recall</th>
-    <th>Precision</th>
-  </tr>
-    <tr>
-    <th>20.0</th>
-    <th>75.6</th>
-    <th>18.5%</th>
-    <th>32.7%</th>
-    <th>21,244</th>
-    <th>27,499</th>
-    <th>429</th>
-    <th>55.2%</th>
-    <th>61.5%</th>
-  </tr>
-  </table>
-
-<p class="sansserif">
-<a href="https://drive.google.com/open?id=1uVJ3NqQiSL5i3gzGT0wbry3ec2fOxFmd" title="Download movie" target="_new">ADL-Rundle-1</a></br>
-<a href="https://drive.google.com/open?id=1zH3Kd2ann8OsC2u_pqNI68DTb-dURNyK" title="Download movie" target="_new">ADL-Rundle-3</a></br>
-<a href="https://drive.google.com/open?id=1jq4CM01Ie9CzZygpZnCgklCojsANFLv3" title="Download movie" target="_new">AVG-TownCentre</a></br>
-<a href="https://drive.google.com/open?id=1h6YSPP44Uw3j2onyC5pKzm0mzw_H2Vbr" title="Download movie" target="_new">ETH-Crossing</a></br>
-<a href="https://drive.google.com/open?id=1xv0QsleOUs2VN3CGmUHIN7Xnra6SVnLW" title="Download movie" target="_new">ETH-Jelmoli</a></br>
-<a href="https://drive.google.com/open?id=1eY3HESK9__RxjijlospiwZq0ZqzADgxU" title="Download movie" target="_new">ETH-Linthescher</a></br>
-<a href="https://drive.google.com/open?id=1CL6KGl6IYhJiC9Y_cKCeyow-GVMbMggI" title="Download movie" target="_new">KITTI-16</a></br>
-<a href="https://drive.google.com/open?id=1Npysa08iktqYNop-nk7Jl_2ME5bNZT-s" title="Download movie" target="_new">KITTI-19</a></br>
-<a href="https://drive.google.com/open?id=10pREbcw61tQKSQFswzN9r6uphas1-OOG" title="Download movie" target="_new">PETS09-S2L2</a></br>
-<a href="https://drive.google.com/open?id=1gLPoh0qFwRW-_oPc3Nl1UUom9_xsiJ3s" title="Download movie" target="_new">TUD-Crossing</a></br>
-<a href="https://drive.google.com/open?id=1TFC1LUimU-SgHox9Cpp6kI_JBLl_je0Y" title="Download movie" target="_new">Venice-1</a></br></p>
-
-
-<h2 class="sansserif">Tracking Results on Dense Datasets</h2>
-<p class="sansserif">
-<a href="https://drive.google.com/open?id=1O05IgYtZUu0hO0pYUu61DMKJ61xUoUeg" title="Download movie" target="_new">NPLACE-3</a></br>
-<a href="https://drive.google.com/open?id=1WsUZf4HX828UH-oxFt0MdcQZpaT_MRI2" title="Download movie" target="_new">NPLACE-1</a></br>
-<a href="https://drive.google.com/open?id=1gaNza_NV8VVon3Z_-9EJlwWvOrnjFJ82" title="Download movie" target="_new">NDLS-1</a></br>
-<a href="https://drive.google.com/open?id=1R9n3NWuaC75DHn99By-P3ImMUayUZnkK" title="Download movie" target="_new">NDLS-2</a></br>
-<a href="https://drive.google.com/open?id=12hCwgYEVo1XwXCvscS57QxOFLUxZxQxh" title="Download movie" target="_new">IITF-5</a></br>
-<a href="https://drive.google.com/open?id=1aHxMpgMNsg9yxqJUTHFlwnFgu-HuGi3I" title="Download movie" target="_new">IITF-4</a></br>
-<a href="https://drive.google.com/open?id=1QjGFEMsMl-bw7tWHn7Cf1Dzwde5gGqTg" title="Download movie" target="_new">IITF-3</a></br>
-<a href="https://drive.google.com/open?id=1g-GH_8gVXL-D_LTbtbJpdMqMy8ibJbFR" title="Download movie" target="_new">IITF-1</a></br>    
-</p>
-</span>
+We present a realtime algorithm to track different traffic agents in dense videos. Our approach is designed for heterogeneous traffic scenarios, which consist of different agents including vehicles, bicycles, pedestrians, two-wheelers, etc., sharing the road. We present a novel heterogeneous traffic motion and interaction model (HTMI) to predict the trajectories and interaction between the agents. We combine HTMI with the tracking-by-detection paradigm and use CNNs to compute the features of traffic agents for accurate tracking reliably. We highlight the performance on a new dataset of dense traffic videos and observe 72.02% accuracy. Our approach can handle all kinds of traffic videos in realtime on a single GPU. We observe a 4X speedup over prior tracking algorithms and more than 7% improvement in accuracy.</p>
+<div class="row">
+  <div class="column">
+   <figure>
+    <img src="/assets/images/cover.png" style="width:100%">
+    <figcaption><center>Heterogeneous tracking in very dense traffic</center></figcaption>	
+   </figure>
+  </div>
+  <div class="column">
+<figure>
+   <iframe width=400 height=250 src="https://drive.google.com/file/d/1_j44TW2nu9mKBr4JXGXfQ4fwZxVOTlF0/preview"></iframe>
+<figcaption><center>Strengths: Tracking in challenging conditions</center></figcaption>
+</figure> 
+ </div>
+  <div class="column">
+ <figure>
+    <img src="/assets/images/strength22.png" style="width:115%">
+    <figcaption><center>Strengths: Tracking humans inside vehicles</center></figcaption>
+  </figure>	
+  </div>
+</div>
+<center>
+<h3 class="sansserif">Paper:</h3><a href="/attachments/ICRA19_Chandra.pdf" target="_new">DeepTAgent: Realtime Tracking of Dense Traffic Agents Using Heterogeneous Interaction.</a>
+<h3 class="sansserif">Presentation(Video Results + Slides):</h3><a href="<insert your PPT link>" target="_new">DeepTAgent: Realtime Tracking of Dense Traffic Agents Using Heterogeneous Interaction.</a>
+</center>
+<center>
+<iframe width=400 height=250 src="https://drive.google.com/file/d/13wOgKvfJMoJmMv_8FIDMVkFgFY4JKDHQ/preview"></iframe>
+</center>
 </body>
 </html>
 
