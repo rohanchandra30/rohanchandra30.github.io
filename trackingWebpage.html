@@ -3,13 +3,12 @@
 
 <header>
 <div class="header">
-  <h1><i>DeepTAgent:</i> Realtime Tracking of Highly Heterogeneous Agents in Very Dense Traffic</h1>
+  <h1><i>RoadTrack: Tracking Road Agents In Dense and Heterogeneous Environments </h1>
 </div>
 </header>
 <body>
 <p class = "sansserif">
-We present a realtime algorithm to track different traffic agents in dense videos. Our approach is designed for heterogeneous traffic scenarios, which consist of different agents including vehicles, bicycles, pedestrians, two-wheelers, etc., sharing the road. We present a novel heterogeneous traffic motion and interaction model (HTMI) to predict the trajectories and interaction between the agents. We combine HTMI with the tracking-by-detection paradigm and use CNNs to compute the features of traffic agents for accurate tracking reliably. We highlight the performance on a new dataset of dense traffic videos and observe 72.02% accuracy. Our approach can handle all kinds of traffic videos in realtime on a single GPU. We observe a 4X speedup over prior tracking algorithms and more than 7% improvement in accuracy.</p>
-<div class="row">
+We present an algorithm to track different traffic agents in dense videos. Our approach is designed for heterogeneous traffic scenarios that consist of different agents including vehicles, bicycles, pedestrians, two-wheelers, etc., sharing the road. We present a novel heterogeneous traffic motion and interaction model (HTMI) to predict the motion of agents by modeling collision avoidance and interactions between the agents. We implement HTMI within the tracking-by-detection paradigm and use background subtracted representations of traffic agents to extract binary tensors for accurate tracking. We highlight the performance on a dense traffic videos and observe an accuracy of 75.8%. We observe upto approximately 4X speedup over prior tracking algorithms on standard traffic datasets.<div class="row">
   <div class="column">
    <figure>
     <img src="/assets/images/cover.png" style="width:100%">
@@ -30,8 +29,7 @@ We present a realtime algorithm to track different traffic agents in dense video
   </div>
 </div>
 <center>
-<h3 class="sansserif">Paper:</h3><a href="/attachments/ICRA19_Chandra.pdf" target="_new">DeepTAgent: Realtime Tracking of Dense Traffic Agents Using Heterogeneous Interaction.</a>
-<h3 class="sansserif">Presentation(Video Results + Slides):</h3><a href="<insert your PPT link>" target="_new">DeepTAgent: Realtime Tracking of Dense Traffic Agents Using Heterogeneous Interaction.</a>
+<h3 class="sansserif">Paper:</h3><a href="/attachments/IROS19_Chandra.pdf" target="_new">RoadTrack: Tracking Road Agents In Dense and Heterogeneous Environments.</a>
 </center>
 <center>
 <iframe width=400 height=250 src="https://drive.google.com/file/d/13wOgKvfJMoJmMv_8FIDMVkFgFY4JKDHQ/preview"></iframe>
