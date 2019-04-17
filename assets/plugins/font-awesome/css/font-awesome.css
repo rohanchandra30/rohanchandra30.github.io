@@ -2175,6 +2175,12 @@
 .fa-google-plus-official:before {
   content: "\f2b3";
 }
+.ai-google-scholar:before {
+  content: "\e9d4";
+}
+.ai-google-scholar-square:before {
+  content: "\e9f9";
+}
 .fa-fa:before,
 .fa-font-awesome:before {
   content: "\f2b4";
