@@ -22,13 +22,13 @@ pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and pro
 #sidebar links
 email: firstname@cs.umd.edu
 phone: 240 447 5891
-blog: Math blog #do not add http://
+blog: Blog #do not add http://
 github: rohanchandra30
-resume: Downloadable Resume
+resume: CV
 linkedin: rohanchandra30
-scholar:   My scholar profile
-quora: My quora profile
-
+scholar: Google Scholar
+quora: Quora
+twitter: Twitter
 
 # Tracker
 analytics: UA-83979019-1
