@@ -79,8 +79,10 @@ p {
   color: #fff;
 }
 .sidebar-wrapper .profile-container {
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.2);
+  padding: 35px;
+  /*padding: 20px;*/
+  /*background: rgba(0, 0, 0, 0.2);*/
+  background: #BAB86C;
   text-align: center;
   color: #fff;
 }
