@@ -67,11 +67,11 @@ p {
   /*background: #42A8C0;*/
   background: #808080;
   /*position: relative;*/
-  position: absolute;
+  position: fixed;
   left: 0;
   /*width: 260px;*/
   width: 300px;
-  height: 129%;
+  height: 100%;
   min-height: 1000px;
   color: #fff;
 }
