@@ -318,7 +318,7 @@ used for profile image
 .profile-img {
   max-width: 200px;
   margin-bottom: 15px;
-  border: 0px solid #fff;
-  border-radius: 0%;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border: 3px solid #ffffff;
+  border-radius: 5%;
+  box-shadow: 3 1px 1px rgba(0, 0, 0, 0.1);
 }
