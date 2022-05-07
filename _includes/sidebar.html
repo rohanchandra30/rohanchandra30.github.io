@@ -12,12 +12,6 @@
             
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
-                   
-                    {% if site.quora %}
-                    <li class="quora"><i class="fa fa-quora"></i><a href="https://www.quora.com/profile/Rohan-Chandra-9" target="_blank">  {{site.quora}}</a></li>
-                    {% else %}
-                    <li class="github"><i class="fa fa-github"></i><a href="http://github.com/sharu725" target="_blank">github.com/sharu725</a></li>
-                    {% endif %}
 
 	            {% if site.scholar %}
                     <li class="scholar"><i class="fa fa-graduation-cap"></i><a href="https://scholar.google.com/citations?user=uOIgTt8AAAAJ&hl=en" target="_blank">{{site.scholar}}</a></li>
@@ -63,6 +57,12 @@
                     <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/rohanchandra30" target="_blank">  {{site.twitter}}</a></li>
                     {% else %}
                      <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/@webjeda" target="_blank">@webjeda</a></li>
+                    {% endif %}
+
+                                        {% if site.quora %}
+                    <li class="quora"><i class="fa fa-quora"></i><a href="https://www.quora.com/profile/Rohan-Chandra-9" target="_blank">  {{site.quora}}</a></li>
+                    {% else %}
+                    <li class="github"><i class="fa fa-github"></i><a href="http://github.com/sharu725" target="_blank">github.com/sharu725</a></li>
                     {% endif %}
                     
                 </ul>

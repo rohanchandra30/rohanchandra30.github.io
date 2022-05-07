@@ -1,4 +1,3 @@
-
 title: Rohan
 url: "https://rohanchandra30.github.io/"
 #baseurl: '/online-cv' #change it according to your repository name
@@ -14,7 +13,7 @@ url: "https://rohanchandra30.github.io/"
 
 #Profile information
 name: Rohan Chandra
-tagline: Incoming Postdoc @ UT Austin. Currently final year PhD candidate at UMD.
+tagline: Incoming Postdoc at UT Austin. Currently final year PhD candidate at UMD.
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 
