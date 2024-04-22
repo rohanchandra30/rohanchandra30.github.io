@@ -16,6 +16,8 @@ name: Rohan Chandra
 tagline: Postdoc at UT Austin
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
+include:
+  - diastolic
 
 
 #sidebar links
