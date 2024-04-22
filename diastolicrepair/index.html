@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diastolic Repair</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/medanta.jpg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://keunhong.com">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Information
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://hypernerf.github.io">
+            About Amit Chandra
+          </a>
+          <a class="navbar-item" href="https://hypernerf.github.io">
+            Videos
+          </a>
+          <a class="navbar-item" href="https://hypernerf.github.io">
+            Articles
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Extended Commissurotomy for Rheumatic Mitral Stenosis</h1>
+          <h5 class="title is-5 publication-title">A Novel Technique to Provide Full Diastolic Opening Even in Advanced Disease</h5>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <img src="https://media.licdn.com/dms/image/C4D03AQHPcqDfwipirA/profile-displayphoto-shrink_800_800/0/1516480608442?e=1719446400&v=beta&t=zKUuhoUb9D9NRnfhvfhbFbSLA8b7LGthTZWzxM1e47M"
+                 class="interpolation-image"
+                 alt="Interpolate start reference image."/><br>
+              <a href="https://www.medanta.org/hospitals-near-me/gurugram-hospital/speciality/cardiology/doctor/dr-amit-chandra"><b>Dr. Amit Chandra</b></a> <br><i><small>Director of Cardiac Surgery and Cardiac Care, M.Ch. (C.V.T.S.) , M.S. (General Surgery) , M.B.B.S</small></i>, <a href="https://www.medanta.org/"><small>Medanta, India</small></a>
+              <br><br>
+              <blockquote>
+                <p><i>"The time for Diastolic mitral repair has come. Diastolic mitral repair is to mitral stenosis what French correction is to regurgitation."</i></p>
+               </blockquote>
+               <p style="text-align: right;">— Dr. Amit Chandra</p>
+              <!-- <h5 class="title is-5 publication-title"><i>"The time for <span class="dnerf">Diastolic mitral repair</span> has come. <span class="dnerf">Diastolic mitral repair</span> is to mitral stenosis what <span class="dnerf">French correction</span> is to regurgitation."</i></h5></span> -->
+            <!-- <span class="author-block">
+              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>  
+            <span class="author-block">
+              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
+            </span> -->
+          </div>
+
+          <!-- <div class="is-size-5 publication-authors"> -->
+            <!-- <span class="author-block"> -->
+              <!-- <img src="static/images/medanta.jpg"
+              class="interpolation-image"
+              alt="Interpolate start reference image."/><br> -->
+              <!-- <a href="https://www.medanta.org/">Medanta, Medicity, Gurugram, India</a></span> -->
+            <!-- <span class="author-block"><sup>2</sup>Google Research</span> -->
+          <!-- </div> -->
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://www.linkedin.com/in/dr-amit-chandra-19990012/?originalSubdomain=in" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-linkedin-in"></i>
+                  </span>
+                  <span>LinkedIn</span>
+                </a>
+              </span>
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/abs/2011.12948" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Articles</span>
+                </a>
+              </span> -->
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span> -->
+              <!-- Dataset Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span> -->
+                  <!-- <span>Data</span> -->
+                  <!-- </a> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero">
+  <div class="container is-max-desktop">
+    <div class="something123">
+    <div class="columns is-centered">
+
+      <!-- Visual Effects. -->
+      <div class="column is-half has-text-centered">
+        <div class="content">
+          <h2 class="title is-3">Before</h2>
+          <p>
+            Pure MS (35%)<br>MS + MR (45%), MR + MS<br>Average Ring size (30 +/- 1.4)<br>Mean MPG (5.9 +/- 2.3)<br> Mean valve area (1.63 +/- 0.34)
+          </p>
+          <video id="dollyzoom1" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/segmentation_based.m4v"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <!--/ Visual Effects. -->
+      
+      <!-- Matting. -->
+      <div class="column is-half has-text-centered">
+        <div class="content">
+          <h2 class="title is-3">After</h2>
+            <p>
+              Pure MS (35%)<br>MS + MR (45%), MR + MS<br>Average Ring size (30 +/- 1.4)<br>Mean MPG (5.9 +/- 2.3)<br> Mean valve area (1.63 +/- 0.34)
+              </p>
+            <video id="dollyzoom2" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/sterling_success.m4v"
+                      type="video/mp4">
+            </video>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--/ Matting. -->
+
+
+    <section class="hero">
+      <div class="container is-max-desktop">
+        <div class="hero-body has-text-centered">
+          <h2 class="title is-3">Presentation Video</h2>
+          <video id="teaser" autoplay muted loop playsinline height="100%">
+            <source src="https://aats.blob.core.windows.net/media/Mitral19/Thursday/PT-2-1436-chandra.mp4"
+                    type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            Presenting the <span class="dnerf">Medanta Correction</span> at Mitral Conclave 2019, New York, NY.
+          </h2>
+        </div>
+      </div>
+    </section>
+    
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+<p><b>OBJECTIVES:</b> We present a novel technique to provide full diastolic opening even in advanced disease. Rheumatic mitral stenosis is predominantly a disease of commissural fusion in addition to leaflet and sub-valvular thickening and fusion. Commissural fusion results in contraction of the secondary orifice of mitral valve formed by the free margins of the leaflets. Sub-valvular fusion and thickening results in contraction and restriction of tertiary orifice of mitral valve. Standard Carpentier’s techniques address restriction at both these levels by commissurotomy to enlarge secondary orifice and other sub-valvular procedures for the tertiary orifice. Traditionally, commissurotomy is extended laterally upto 5 mm. of the annulus on both sides. On coming-off bypass, majority of these cases still have high gradients (5-8mmHg or more), anterior leaflet doming, incomplete separation of both leaflets and a turbulent, mosaic pattern of flow through the mitral valve. It is difficult to get a valve area of >1.75 Cm2 most of the times. In short, most of these valves still have residual stenosis even after utilising all the classical Carpentier’s techniques (Fig.1A). We developed this technique to completely abolish commissural fusion and achieve full diastolic opening of the valve, giving valve areas close to 3 Cm2, no anterior leaflet doming and a laminar flow through the mitral orifice. </p> 
+
+<p><b>METHODS:</b> On both sides, the commissurotomy is extended up-to the annulus and then along the annulus up-to the trigones (Fig.1C). Anterior leaflet is then pushed into the ventricle to achieve the fully opened position. A triangle is made with the trigone as apex, cut margin of anterior leaflet on one side and annulus and part of posterior leaflet on the other side. This triangular defect is measured and filled by an appropriately sized triangular gluteraldehyde tanned pericardial patch or more recently, tissue engineered collagen matrix patch using 5-0 prolene. Only the sides of the triangle are attached ; anterior leaflet to one side and annulus to the other. Base of the patch remains free and to prevent it’s prolapse, it is attached , in it’s middle, to the commissural head of papillary muscles by a PTFE CV-6 suture (Fig.1D).</p>  
+
+<p><b>RESULTS:</b> Extended Commissurotomy has been used in 12 patients of severe rheumatic mitral stenosis from July 2016 to December 2016. Post-operatively, mean pressure gradients were 3.14±0.86 mmHg and mean valve area 2.95±0.23Cm2 (pressure-half time method). There were no commissural leaks, no doming of leaflets and a laminar flow (Fig.1B).</p>
+
+<p><b>CONCLUSIONS:</b> Since long, rheumatic repair surgeons have struggled with residual stenosis in form of doming, high gradients, small valve areas. By directly enlarging the secondary orifice of mitral valve , present method provides the solution in a scientific manner. It has the potential to further increase the reparability rates of rheumatic mitral valves beyond the current 70%.</p>
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    / Paper video. -->
+  <!-- </div> -->
+<!-- </section>  -->
+<section class="hero"><div class="table-container">
+  <table>
+    <caption><span class="dnerf">Medanta Correction</span> surgeries</caption>
+    <thead>
+      <tr>
+        <th>Patient information</th>
+        <th>Outcome</th>
+        <th>Video</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Row 1, Cell 1</td>
+        <td>Row 1, Cell 2</td>
+        <td><video id="dollyzoom2" autoplay controls muted loop playsinline height="100%">
+          <source src="./static/videos/sterling_success.m4v"
+                  type="video/mp4">
+        </video></td>
+      </tr>
+      <tr>
+        <td>Row 2, Cell 1</td>
+        <td>Row 2, Cell 2</td>
+        <td><video id="dollyzoom2" autoplay controls muted loop playsinline height="100%">
+          <source src="./static/videos/sterling_success.m4v"
+                  type="video/mp4">
+        </video></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</section>
+
+
+
+
+<!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{park2021nerfies,
+  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
+  title     = {Nerfies: Deformable Neural Radiance Fields},
+  journal   = {ICCV},
+  year      = {2021},
+}</code></pre>
+  </div>
+</section> -->
+
+
+<!-- <footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+</body>
+</html>
